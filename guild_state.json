@@ -24,7 +24,7 @@
     "rank": "Alucardd"
   },
   "Kisu": {
-    "level": 756,
+    "level": 757,
     "status": "Online",
     "vocation": "Kaguya",
     "rank": "Kisu"
@@ -73,7 +73,7 @@
   },
   "Veyk": {
     "level": 791,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Veyk"
   },
@@ -138,7 +138,7 @@
     "rank": "Macz"
   },
   "Seitou": {
-    "level": 756,
+    "level": 757,
     "status": "Online",
     "vocation": "Zabuza",
     "rank": "Seitou"
@@ -168,7 +168,7 @@
     "rank": "Blacklee"
   },
   "Akuma Wd": {
-    "level": 320,
+    "level": 319,
     "status": "Online",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
