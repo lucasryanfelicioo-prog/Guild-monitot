@@ -19,7 +19,7 @@
   },
   "Alucardd": {
     "level": 699,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Hagoromo",
     "rank": "Alucardd"
   },
@@ -114,7 +114,7 @@
     "rank": "Bratva"
   },
   "Biit": {
-    "level": 811,
+    "level": 812,
     "status": "Online",
     "vocation": "Hidan",
     "rank": "Biit"
@@ -138,7 +138,7 @@
     "rank": "Macz"
   },
   "Seitou": {
-    "level": 753,
+    "level": 754,
     "status": "Online",
     "vocation": "Zabuza",
     "rank": "Seitou"
