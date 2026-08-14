@@ -1,12 +1,12 @@
 {
   "Will": {
-    "level": 899,
+    "level": 900,
     "status": "Online",
     "vocation": "Shikamaru",
     "rank": "Will"
   },
   "Pk Oshh": {
-    "level": 944,
+    "level": 945,
     "status": "Online",
     "vocation": "Indra",
     "rank": "Pk Oshh"
@@ -19,7 +19,7 @@
   },
   "Alucardd": {
     "level": 699,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Hagoromo",
     "rank": "Alucardd"
   },
@@ -54,7 +54,7 @@
     "rank": "Dail Cool"
   },
   "Scooby": {
-    "level": 801,
+    "level": 802,
     "status": "Online",
     "vocation": "Hidan",
     "rank": "Scooby"
@@ -84,7 +84,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 687,
+    "level": 688,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
@@ -96,7 +96,7 @@
     "rank": "Okarun"
   },
   "Mohamed Sz": {
-    "level": 682,
+    "level": 683,
     "status": "Online",
     "vocation": "Shisui",
     "rank": "Mohamed Sz"
@@ -126,7 +126,7 @@
     "rank": "Sola O Madara"
   },
   "Wonderweiss": {
-    "level": 833,
+    "level": 834,
     "status": "Online",
     "vocation": "Indra",
     "rank": "Wonderweiss"
@@ -138,7 +138,7 @@
     "rank": "Macz"
   },
   "Seitou": {
-    "level": 719,
+    "level": 720,
     "status": "Online",
     "vocation": "Zabuza",
     "rank": "Seitou"
