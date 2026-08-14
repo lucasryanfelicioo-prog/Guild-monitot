@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 901,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Shikamaru",
     "rank": "Will"
   },
@@ -109,7 +109,7 @@
   },
   "Bratva": {
     "level": 862,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Obito",
     "rank": "Bratva"
   },
