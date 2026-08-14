@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 901,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Shikamaru",
     "rank": "Will"
   },
@@ -43,7 +43,7 @@
   },
   "Heisein Berg": {
     "level": 807,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Kabuto",
     "rank": "Heisein Berg"
   },
