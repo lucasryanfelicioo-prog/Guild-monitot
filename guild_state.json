@@ -1,13 +1,13 @@
 {
   "Will": {
     "level": 901,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Shikamaru",
     "rank": "Will"
   },
   "Pk Oshh": {
     "level": 931,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Pk Oshh"
   },
@@ -25,13 +25,13 @@
   },
   "Kisu": {
     "level": 757,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Kaguya",
     "rank": "Kisu"
   },
   "Gabiru": {
     "level": 813,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Tsunade",
     "rank": "Gabiru"
   },
@@ -43,7 +43,7 @@
   },
   "Heisein Berg": {
     "level": 808,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Kabuto",
     "rank": "Heisein Berg"
   },
@@ -55,49 +55,49 @@
   },
   "Scooby": {
     "level": 803,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Hidan",
     "rank": "Scooby"
   },
   "Darkness Arsenis": {
     "level": 808,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Itachi",
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
     "level": 859,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
   "Veyk": {
     "level": 791,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Veyk"
   },
   "Hitogoroshi": {
     "level": 793,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Minato",
     "rank": "Hitogoroshi"
   },
   "Yuta": {
     "level": 704,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Danzou",
     "rank": "Yuta"
   },
   "Okarun": {
     "level": 538,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Nagato",
     "rank": "Okarun"
   },
   "Mohamed Sz": {
     "level": 688,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Shisui",
     "rank": "Mohamed Sz"
   },
@@ -109,13 +109,13 @@
   },
   "Bratva": {
     "level": 862,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Obito",
     "rank": "Bratva"
   },
   "Biit": {
     "level": 829,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Hidan",
     "rank": "Biit"
   },
@@ -127,7 +127,7 @@
   },
   "Wonderweiss": {
     "level": 834,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Wonderweiss"
   },
@@ -139,7 +139,7 @@
   },
   "Seitou": {
     "level": 759,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Zabuza",
     "rank": "Seitou"
   },
@@ -169,7 +169,7 @@
   },
   "Akuma Wd": {
     "level": 328,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
   }
