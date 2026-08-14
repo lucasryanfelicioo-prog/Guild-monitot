@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 901,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Shikamaru",
     "rank": "Will"
   },
@@ -55,7 +55,7 @@
   },
   "Scooby": {
     "level": 803,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Hidan",
     "rank": "Scooby"
   },
@@ -67,31 +67,31 @@
   },
   "Saikopasu": {
     "level": 859,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
   "Veyk": {
     "level": 791,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Veyk"
   },
   "Hitogoroshi": {
     "level": 793,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Minato",
     "rank": "Hitogoroshi"
   },
   "Yuta": {
     "level": 704,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
   },
   "Okarun": {
     "level": 538,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Nagato",
     "rank": "Okarun"
   },
@@ -109,13 +109,13 @@
   },
   "Bratva": {
     "level": 862,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Obito",
     "rank": "Bratva"
   },
   "Biit": {
     "level": 829,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Hidan",
     "rank": "Biit"
   },
@@ -127,7 +127,7 @@
   },
   "Wonderweiss": {
     "level": 834,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Wonderweiss"
   },
@@ -139,7 +139,7 @@
   },
   "Seitou": {
     "level": 759,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Zabuza",
     "rank": "Seitou"
   },
@@ -169,7 +169,7 @@
   },
   "Akuma Wd": {
     "level": 328,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
   }
