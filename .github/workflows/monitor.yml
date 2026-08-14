@@ -23,15 +23,20 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests beautifulsoup4
 
-      - name: Rodar checagem da guild
+      - name: Rodar checagem da guild (level, entrada/saida, online)
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: python monitor_guild.py
+
+      - name: Rodar checagem de mortes (embeds bonitos)
+        env:
+          DEATH_WEBHOOK_URL: ${{ secrets.DEATH_WEBHOOK_URL }}
+        run: python monitor_deaths_pretty.py
 
       - name: Salvar estado atualizado no repositorio
         run: |
           git config user.name "guild-monitor-bot"
           git config user.email "actions@github.com"
-          git add guild_state.json
+          git add guild_state.json death_state.json
           git diff --quiet --cached || git commit -m "Atualiza estado da guild [skip ci]"
           git push
