@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 900,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Raikage",
     "rank": "Will"
   },
@@ -91,7 +91,7 @@
   },
   "Okarun": {
     "level": 560,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Nagato",
     "rank": "Okarun"
   },
