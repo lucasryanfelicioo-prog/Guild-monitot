@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 902,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Raikage",
     "rank": "Will"
   },
@@ -13,25 +13,25 @@
   },
   "Tsukuyomi Infinito": {
     "level": 979,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Madara",
     "rank": "Tsukuyomi Infinito"
   },
   "Alucardd": {
     "level": 699,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Hagoromo",
     "rank": "Alucardd"
   },
   "Kisu": {
     "level": 757,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Kaguya",
     "rank": "Kisu"
   },
   "Gabiru": {
     "level": 813,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Tsunade",
     "rank": "Gabiru"
   },
@@ -55,7 +55,7 @@
   },
   "Scooby": {
     "level": 808,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Yagura",
     "rank": "Scooby"
   },
@@ -109,7 +109,7 @@
   },
   "Bratva": {
     "level": 862,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Obito",
     "rank": "Bratva"
   },
@@ -139,7 +139,7 @@
   },
   "Seitou": {
     "level": 761,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Zabuza",
     "rank": "Seitou"
   },
