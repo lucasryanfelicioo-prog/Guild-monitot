@@ -13,19 +13,19 @@
   },
   "Tsukuyomi Infinito": {
     "level": 979,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Madara",
     "rank": "Tsukuyomi Infinito"
   },
   "Alucardd": {
     "level": 699,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Hagoromo",
     "rank": "Alucardd"
   },
   "Kisu": {
     "level": 757,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Kaguya",
     "rank": "Kisu"
   },
@@ -138,7 +138,7 @@
     "rank": "Macz"
   },
   "Seitou": {
-    "level": 763,
+    "level": 757,
     "status": "Online",
     "vocation": "Zabuza",
     "rank": "Seitou"
