@@ -24,7 +24,7 @@
     "rank": "Alucardd"
   },
   "Kisu": {
-    "level": 760,
+    "level": 757,
     "status": "Online",
     "vocation": "Kaguya",
     "rank": "Kisu"
@@ -85,7 +85,7 @@
   },
   "Yuta": {
     "level": 709,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
   },
@@ -163,7 +163,7 @@
   },
   "Akuma Wd": {
     "level": 538,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
   }
