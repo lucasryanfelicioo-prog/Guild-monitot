@@ -36,13 +36,13 @@
     "rank": "Gabiru"
   },
   "Green": {
-    "level": 800,
+    "level": 801,
     "status": "Online",
     "vocation": "Madara",
     "rank": "Green"
   },
   "Heisein Berg": {
-    "level": 806,
+    "level": 807,
     "status": "Online",
     "vocation": "Kabuto",
     "rank": "Heisein Berg"
@@ -72,7 +72,7 @@
     "rank": "Saikopasu"
   },
   "Veyk": {
-    "level": 796,
+    "level": 798,
     "status": "Online",
     "vocation": "Indra",
     "rank": "Veyk"
@@ -90,7 +90,7 @@
     "rank": "Yuta"
   },
   "Okarun": {
-    "level": 582,
+    "level": 584,
     "status": "Online",
     "vocation": "Nagato",
     "rank": "Okarun"
@@ -103,7 +103,7 @@
   },
   "Caixao De Areia": {
     "level": 628,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Zetsu",
     "rank": "Caixao De Areia"
   },
@@ -168,7 +168,7 @@
     "rank": "Blacklee"
   },
   "Akuma Wd": {
-    "level": 461,
+    "level": 468,
     "status": "Online",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
