@@ -37,7 +37,7 @@
   },
   "Green": {
     "level": 801,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Madara",
     "rank": "Green"
   },
@@ -90,7 +90,7 @@
     "rank": "Yuta"
   },
   "Okarun": {
-    "level": 607,
+    "level": 608,
     "status": "Online",
     "vocation": "Nagato",
     "rank": "Okarun"
