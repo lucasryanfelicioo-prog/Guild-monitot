@@ -55,7 +55,7 @@
   },
   "Scooby": {
     "level": 814,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Yagura",
     "rank": "Scooby"
   },
@@ -67,7 +67,7 @@
   },
   "Saikopasu": {
     "level": 865,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
