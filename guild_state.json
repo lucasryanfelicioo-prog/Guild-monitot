@@ -67,7 +67,7 @@
   },
   "Saikopasu": {
     "level": 866,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
@@ -115,7 +115,7 @@
   },
   "Biit": {
     "level": 799,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Hidan",
     "rank": "Biit"
   },
@@ -127,7 +127,7 @@
   },
   "Wonderweiss": {
     "level": 834,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Wonderweiss"
   },
