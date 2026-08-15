@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 900,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Raikage",
     "rank": "Will"
   },
@@ -109,7 +109,7 @@
   },
   "Bratva": {
     "level": 862,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Obito",
     "rank": "Bratva"
   },
@@ -139,7 +139,7 @@
   },
   "Seitou": {
     "level": 763,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Zabuza",
     "rank": "Seitou"
   },
