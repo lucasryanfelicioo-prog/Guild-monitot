@@ -6,7 +6,7 @@
     "rank": "Will"
   },
   "Pk Oshh": {
-    "level": 928,
+    "level": 923,
     "status": "Online",
     "vocation": "Indra",
     "rank": "Pk Oshh"
@@ -36,7 +36,7 @@
     "rank": "Gabiru"
   },
   "Green": {
-    "level": 797,
+    "level": 792,
     "status": "Online",
     "vocation": "Madara",
     "rank": "Green"
@@ -66,7 +66,7 @@
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
-    "level": 866,
+    "level": 864,
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
@@ -78,8 +78,8 @@
     "rank": "Veyk"
   },
   "Hitogoroshi": {
-    "level": 810,
-    "status": "Online",
+    "level": 809,
+    "status": "Offline",
     "vocation": "Minato",
     "rank": "Hitogoroshi"
   },
@@ -115,7 +115,7 @@
   },
   "Biit": {
     "level": 800,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Hidan",
     "rank": "Biit"
   },
