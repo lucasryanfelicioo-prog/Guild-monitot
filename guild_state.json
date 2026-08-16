@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 898,
+    "level": 899,
     "status": "Online",
     "vocation": "Raikage",
     "rank": "Will"
@@ -36,7 +36,7 @@
     "rank": "Green"
   },
   "Dail Cool": {
-    "level": 794,
+    "level": 796,
     "status": "Online",
     "vocation": "Jiraya",
     "rank": "Dail Cool"
@@ -91,7 +91,7 @@
   },
   "Bratva": {
     "level": 862,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Obito",
     "rank": "Bratva"
   },
