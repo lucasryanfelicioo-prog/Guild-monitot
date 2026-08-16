@@ -1,12 +1,12 @@
 {
   "Will": {
-    "level": 900,
+    "level": 897,
     "status": "Online",
     "vocation": "Raikage",
     "rank": "Will"
   },
   "Pk Oshh": {
-    "level": 923,
+    "level": 922,
     "status": "Online",
     "vocation": "Indra",
     "rank": "Pk Oshh"
@@ -22,12 +22,6 @@
     "status": "Online",
     "vocation": "Hagoromo",
     "rank": "Alucardd"
-  },
-  "Kisu": {
-    "level": 757,
-    "status": "Online",
-    "vocation": "Kaguya",
-    "rank": "Kisu"
   },
   "Gabiru": {
     "level": 813,
@@ -54,7 +48,7 @@
     "rank": "Dail Cool"
   },
   "Scooby": {
-    "level": 815,
+    "level": 809,
     "status": "Online",
     "vocation": "Yagura",
     "rank": "Scooby"
@@ -66,7 +60,7 @@
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
-    "level": 864,
+    "level": 862,
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
@@ -79,7 +73,7 @@
   },
   "Hitogoroshi": {
     "level": 809,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Minato",
     "rank": "Hitogoroshi"
   },
