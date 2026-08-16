@@ -19,7 +19,7 @@
   },
   "Alucardd": {
     "level": 694,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Hagoromo",
     "rank": "Alucardd"
   },
@@ -36,7 +36,7 @@
     "rank": "Green"
   },
   "Dail Cool": {
-    "level": 801,
+    "level": 802,
     "status": "Online",
     "vocation": "Jiraya",
     "rank": "Dail Cool"
@@ -54,7 +54,7 @@
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
-    "level": 854,
+    "level": 855,
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
@@ -78,7 +78,7 @@
     "rank": "Yuta"
   },
   "Okarun": {
-    "level": 636,
+    "level": 637,
     "status": "Online",
     "vocation": "Nagato",
     "rank": "Okarun"
@@ -144,7 +144,7 @@
     "rank": "Blacklee"
   },
   "Akuma Wd": {
-    "level": 551,
+    "level": 552,
     "status": "Online",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
