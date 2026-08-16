@@ -23,6 +23,9 @@ SITE_TIMEZONE = ZoneInfo("Europe/Berlin")
 # So conta mortes que aconteceram nos ultimos X minutos (janela da war "ao vivo")
 WAR_WINDOW_MINUTES = int(os.environ.get("WAR_WINDOW_MINUTES", "60"))
 
+# Dispara um alerta com @everyone quando o numero de kills na janela passar disso
+ALERT_THRESHOLD = int(os.environ.get("WAR_ALERT_THRESHOLD", "6"))
+
 # ==================== CONFIGURACAO ====================
 
 WEBHOOK_URL = os.environ.get(
@@ -125,7 +128,19 @@ def send_war_kill_embed(victim, victim_side, killers, date_text, level, score_us
     post_or_edit_webhook_message({"embeds": [embed]})
 
 
-def build_scoreboard_embed(score_us, score_them):
+def send_war_alert(window_count, window_minutes):
+    embed = {
+        "title": "🚨 WAR ATIVA! 🚨",
+        "description": (
+            f"**{window_count} kills** entre as guilds nos últimos **{window_minutes} minutos**!\n"
+            f"Bora pra guerra! ⚔️"
+        ),
+        "color": 0xFF0000,
+    }
+    post_or_edit_webhook_message({"content": "@everyone", "embeds": [embed]})
+
+
+def build_scoreboard_embed(score_us, score_them, top_killers=None, top_deaths=None):
     if score_us > score_them:
         status = f"🏆 **{GUILD_US_NAME}** está na frente!"
     elif score_them > score_us:
@@ -133,12 +148,21 @@ def build_scoreboard_embed(score_us, score_them):
     else:
         status = "⚖️ Empate!"
 
+    fields = []
+    if top_killers:
+        killers_text = "\n".join(f"🗡️ **{name}** — {count} kill(s)" for name, count in top_killers)
+        fields.append({"name": "🏅 Top Assassinos", "value": killers_text or "—", "inline": True})
+    if top_deaths:
+        deaths_text = "\n".join(f"💀 **{name}** — {count} morte(s)" for name, count in top_deaths)
+        fields.append({"name": "☠️ Mais Mortos", "value": deaths_text or "—", "inline": True})
+
     return {
         "title": "📊 Placar da War",
         "description": (
             f"## {GUILD_US_NAME}  `{score_us}`  x  `{score_them}`  {GUILD_THEM_NAME}\n\n{status}"
         ),
         "color": COLOR_SCOREBOARD,
+        "fields": fields,
         "footer": {"text": f"Conta mortes dos ultimos {WAR_WINDOW_MINUTES} min • Atualizado automaticamente"},
     }
 
@@ -214,8 +238,19 @@ def death_key(death):
 def load_state():
     if os.path.exists(STATE_FILE):
         with open(STATE_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {"score": {"us": 0, "them": 0}, "counted_keys": [], "scoreboard_message_id": None}
+            data = json.load(f)
+            data.setdefault("kill_log", {})  # key -> data_iso
+            data.setdefault("stats", {"kills": {}, "deaths": {}})
+            data.setdefault("alert_active", False)
+            return data
+    return {
+        "score": {"us": 0, "them": 0},
+        "counted_keys": [],
+        "scoreboard_message_id": None,
+        "kill_log": {},
+        "stats": {"kills": {}, "deaths": {}},
+        "alert_active": False,
+    }
 
 
 def save_state(state):
@@ -270,6 +305,8 @@ def main():
     state = load_state()
     counted = set(state.get("counted_keys", []))
     score = state.get("score", {"us": 0, "them": 0})
+    kill_log = state.get("kill_log", {})
+    stats = state.get("stats", {"kills": {}, "deaths": {}})
 
     new_kills = [k for k in all_kills if k["key"] not in counted]
 
@@ -278,6 +315,10 @@ def main():
             score["us"] += 1
         else:
             score["them"] += 1
+
+        for killer_name in k["killers"]:
+            stats["kills"][killer_name] = stats["kills"].get(killer_name, 0) + 1
+        stats["deaths"][k["victim"]] = stats["deaths"].get(k["victim"], 0) + 1
 
         send_war_kill_embed(
             victim=k["victim"],
@@ -289,10 +330,39 @@ def main():
             score_them=score["them"],
         )
         counted.add(k["key"])
+
+        dt = parse_death_datetime(k["date"])
+        if dt:
+            kill_log[k["key"]] = dt.isoformat()
+
         time.sleep(0.5)
 
+    # limpa entradas antigas do kill_log (fora da janela) e conta quantas estao ativas agora
+    now = datetime.now(SITE_TIMEZONE)
+    active_count = 0
+    pruned_kill_log = {}
+    for key, iso in kill_log.items():
+        try:
+            dt = datetime.fromisoformat(iso)
+        except ValueError:
+            continue
+        if timedelta(0) <= (now - dt) <= timedelta(minutes=WAR_WINDOW_MINUTES):
+            pruned_kill_log[key] = iso
+            active_count += 1
+    kill_log = pruned_kill_log
+
+    # dispara o alerta se passou do limite e ainda nao tinha disparado pra essa "onda"
+    if active_count > ALERT_THRESHOLD and not state.get("alert_active", False):
+        send_war_alert(active_count, WAR_WINDOW_MINUTES)
+        state["alert_active"] = True
+    elif active_count <= ALERT_THRESHOLD:
+        state["alert_active"] = False
+
+    top_killers = sorted(stats["kills"].items(), key=lambda x: -x[1])[:3]
+    top_deaths = sorted(stats["deaths"].items(), key=lambda x: -x[1])[:3]
+
     if new_kills or state.get("scoreboard_message_id") is None:
-        scoreboard_embed = build_scoreboard_embed(score["us"], score["them"])
+        scoreboard_embed = build_scoreboard_embed(score["us"], score["them"], top_killers, top_deaths)
         message_id = post_or_edit_webhook_message(
             {"embeds": [scoreboard_embed]}, message_id=state.get("scoreboard_message_id")
         )
@@ -301,9 +371,11 @@ def main():
 
     state["counted_keys"] = list(counted)[-500:]
     state["score"] = score
+    state["kill_log"] = kill_log
+    state["stats"] = stats
     save_state(state)
 
-    print(f"[OK] War checada - {len(new_kills)} kill(s) nova(s). Placar: {GUILD_US_NAME} {score['us']} x {score['them']} {GUILD_THEM_NAME}")
+    print(f"[OK] War checada - {len(new_kills)} kill(s) nova(s). Ativos na janela: {active_count}. Placar: {GUILD_US_NAME} {score['us']} x {score['them']} {GUILD_THEM_NAME}")
 
 
 if __name__ == "__main__":
