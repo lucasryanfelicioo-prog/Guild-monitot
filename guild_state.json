@@ -36,7 +36,7 @@
     "rank": "Green"
   },
   "Dail Cool": {
-    "level": 804,
+    "level": 805,
     "status": "Online",
     "vocation": "Jiraya",
     "rank": "Dail Cool"
@@ -144,8 +144,8 @@
     "rank": "Blacklee"
   },
   "Akuma Wd": {
-    "level": 558,
-    "status": "Online",
+    "level": 554,
+    "status": "Offline",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
   }
