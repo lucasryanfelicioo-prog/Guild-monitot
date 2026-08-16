@@ -78,7 +78,7 @@
     "rank": "Yuta"
   },
   "Okarun": {
-    "level": 631,
+    "level": 632,
     "status": "Online",
     "vocation": "Nagato",
     "rank": "Okarun"
@@ -97,7 +97,7 @@
   },
   "Biit": {
     "level": 789,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Hidan",
     "rank": "Biit"
   },
@@ -144,7 +144,7 @@
     "rank": "Blacklee"
   },
   "Akuma Wd": {
-    "level": 539,
+    "level": 542,
     "status": "Online",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
