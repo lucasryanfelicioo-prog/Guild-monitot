@@ -33,10 +33,15 @@ jobs:
           DEATH_WEBHOOK_URL: ${{ secrets.DEATH_WEBHOOK_URL }}
         run: python monitor_deaths_pretty.py
 
+      - name: Rodar checagem da war (placar AKATSUKI x NIRVANA)
+        env:
+          WAR_WEBHOOK_URL: ${{ secrets.WAR_WEBHOOK_URL }}
+        run: python monitor_war.py
+
       - name: Salvar estado atualizado no repositorio
         run: |
           git config user.name "guild-monitor-bot"
           git config user.email "actions@github.com"
-          git add guild_state.json death_state.json
+          git add guild_state.json death_state.json war_state.json
           git diff --quiet --cached || git commit -m "Atualiza estado da guild [skip ci]"
           git push
