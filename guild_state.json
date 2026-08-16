@@ -37,7 +37,7 @@
   },
   "Dail Cool": {
     "level": 800,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Jiraya",
     "rank": "Dail Cool"
   },
@@ -55,7 +55,7 @@
   },
   "Saikopasu": {
     "level": 854,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
