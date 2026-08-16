@@ -37,7 +37,7 @@
   },
   "Dail Cool": {
     "level": 790,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Jiraya",
     "rank": "Dail Cool"
   },
@@ -67,7 +67,7 @@
   },
   "Hitogoroshi": {
     "level": 810,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Minato",
     "rank": "Hitogoroshi"
   },
