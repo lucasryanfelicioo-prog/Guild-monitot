@@ -1,8 +1,9 @@
 """
 Monitor de War - AKATSUKI x NIRVANA (NTO)
 Cruza as mortes dos membros das duas guilds: quando um membro de uma guild
-morre para um membro da outra, conta como ponto de war. Mantem um placar
-fixo (edita a mesma mensagem) e manda um embed por kill de war.
+morre para um membro da outra, conta como ponto de war. So considera mortes
+recentes (janela de tempo configuravel). Mantem um placar fixo (edita
+a mesma mensagem) e manda um embed por kill de war.
 """
 
 import requests
@@ -11,7 +12,16 @@ import os
 import re
 import time
 import urllib.parse
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
+
+# O site mostra as datas de morte no fuso da Europa (CEST/CET) - usamos o
+# mesmo fuso pra calcular quanto tempo faz desde a morte.
+SITE_TIMEZONE = ZoneInfo("Europe/Berlin")
+
+# So conta mortes que aconteceram nos ultimos X minutos (janela da war "ao vivo")
+WAR_WINDOW_MINUTES = int(os.environ.get("WAR_WINDOW_MINUTES", "60"))
 
 # ==================== CONFIGURACAO ====================
 
@@ -26,20 +36,53 @@ GUILD_US_NAME = "AKATSUKI"
 GUILD_THEM_NAME = "NIRVANA"
 
 BASE_CHARACTER_URL = "https://ntovikings.com/characters/"
-PORTRAIT_BASE_URL = "https://ntovikings.com/templates/naruto_vikings/assets/Portrait/"
 
 STATE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "war_state.json")
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; GuildMonitorBot/1.0)"}
 
-COLOR_US_WIN = 0x2ECC71   # verde (nos matamos eles)
-COLOR_THEM_WIN = 0xC0392B  # vermelho (eles mataram nos)
-COLOR_SCOREBOARD = 0xF1C40F  # dourado
+COLOR_US_WIN = 0x2ECC71
+COLOR_THEM_WIN = 0xC0392B
+COLOR_SCOREBOARD = 0xF1C40F
+
+MONTHS = {
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+    "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+
+
+# ==================== FILTRO DE TEMPO (JANELA DA WAR) ====================
+
+def parse_death_datetime(date_text):
+    """Converte 'Aug 15 2026, 22:26 CEST' num datetime com fuso."""
+    match = re.search(r"([A-Za-z]{3})\s+(\d{1,2})\s+(\d{4}),\s*(\d{1,2}):(\d{2})", date_text)
+    if not match:
+        return None
+    month_str, day_str, year_str, hour_str, minute_str = match.groups()
+    month = MONTHS.get(month_str.lower())
+    if not month:
+        return None
+    try:
+        return datetime(
+            int(year_str), month, int(day_str), int(hour_str), int(minute_str),
+            tzinfo=SITE_TIMEZONE,
+        )
+    except ValueError:
+        return None
+
+
+def is_recent(date_text, window_minutes=WAR_WINDOW_MINUTES):
+    """Verifica se a morte aconteceu dentro da janela de tempo (war 'ao vivo')."""
+    dt = parse_death_datetime(date_text)
+    if dt is None:
+        return False
+    now = datetime.now(SITE_TIMEZONE)
+    diff = now - dt
+    return timedelta(0) <= diff <= timedelta(minutes=window_minutes)
 
 
 # ==================== DISCORD ====================
 
 def post_or_edit_webhook_message(payload, message_id=None):
-    """Cria uma mensagem nova ou edita uma existente. Retorna o message_id."""
     try:
         if message_id:
             url = f"{WEBHOOK_URL}/messages/{message_id}"
@@ -61,7 +104,7 @@ def post_or_edit_webhook_message(payload, message_id=None):
 
 
 def send_war_kill_embed(victim, victim_side, killers, date_text, level, score_us, score_them):
-    us_won = victim_side == "them"  # vitima era deles -> nos matamos
+    us_won = victim_side == "them"
     color = COLOR_US_WIN if us_won else COLOR_THEM_WIN
     killer_guild = GUILD_US_NAME if us_won else GUILD_THEM_NAME
     victim_guild = GUILD_THEM_NAME if us_won else GUILD_US_NAME
@@ -96,7 +139,7 @@ def build_scoreboard_embed(score_us, score_them):
             f"## {GUILD_US_NAME}  `{score_us}`  x  `{score_them}`  {GUILD_THEM_NAME}\n\n{status}"
         ),
         "color": COLOR_SCOREBOARD,
-        "footer": {"text": "Atualizado automaticamente a cada checagem"},
+        "footer": {"text": f"Conta mortes dos ultimos {WAR_WINDOW_MINUTES} min • Atualizado automaticamente"},
     }
 
 
@@ -183,11 +226,6 @@ def save_state(state):
 # ==================== LOGICA PRINCIPAL ====================
 
 def collect_war_kills(victims, rival_names_set, victim_side):
-    """
-    victims: lista de nomes (potenciais vitimas)
-    rival_names_set: nomes que, se aparecerem como assassino, contam pra war
-    victim_side: "us" ou "them" (de qual lado sao as vitimas)
-    """
     kills = []
     for victim in victims:
         try:
@@ -199,6 +237,8 @@ def collect_war_kills(victims, rival_names_set, victim_side):
         for d in deaths:
             if not d["killers"]:
                 continue
+            if not is_recent(d["date"]):
+                continue  # ignora mortes fora da janela de tempo da war
             rival_killers = [k for k in d["killers"] if k in rival_names_set]
             if rival_killers:
                 kills.append({
@@ -214,7 +254,7 @@ def collect_war_kills(victims, rival_names_set, victim_side):
 
 
 def main():
-    print("Checando war AKATSUKI x NIRVANA...")
+    print("Checando war AKATSUKI x NIRVANA (janela de tempo)...")
 
     us_members = fetch_guild_members(GUILD_US_URL)
     them_members = fetch_guild_members(GUILD_THEM_URL)
@@ -222,9 +262,7 @@ def main():
     us_set = set(us_members)
     them_set = set(them_members)
 
-    # mortes de membros de "them" causadas por "us" -> ponto pra nos
     kills_for_us = collect_war_kills(them_members, us_set, victim_side="them")
-    # mortes de membros de "us" causadas por "them" -> ponto pra eles
     kills_for_them = collect_war_kills(us_members, them_set, victim_side="us")
 
     all_kills = kills_for_us + kills_for_them
@@ -253,21 +291,15 @@ def main():
         counted.add(k["key"])
         time.sleep(0.5)
 
-    if new_kills:
+    if new_kills or state.get("scoreboard_message_id") is None:
         scoreboard_embed = build_scoreboard_embed(score["us"], score["them"])
         message_id = post_or_edit_webhook_message(
             {"embeds": [scoreboard_embed]}, message_id=state.get("scoreboard_message_id")
         )
         if message_id:
             state["scoreboard_message_id"] = message_id
-    elif state.get("scoreboard_message_id") is None:
-        # garante que o placar existe mesmo sem kills novos na primeira execucao
-        scoreboard_embed = build_scoreboard_embed(score["us"], score["them"])
-        message_id = post_or_edit_webhook_message({"embeds": [scoreboard_embed]})
-        if message_id:
-            state["scoreboard_message_id"] = message_id
 
-    state["counted_keys"] = list(counted)[-500:]  # limita tamanho do arquivo
+    state["counted_keys"] = list(counted)[-500:]
     state["score"] = score
     save_state(state)
 
