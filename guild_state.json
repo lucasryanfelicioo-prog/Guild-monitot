@@ -31,7 +31,7 @@
   },
   "Green": {
     "level": 792,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Madara",
     "rank": "Green"
   },
@@ -91,7 +91,7 @@
   },
   "Bratva": {
     "level": 863,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Obito",
     "rank": "Bratva"
   },
