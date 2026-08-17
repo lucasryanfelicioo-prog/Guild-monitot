@@ -10,5 +10,19 @@
     "kills": {},
     "deaths": {}
   },
-  "alert_active": false
+  "alert_active": false,
+  "initial_backfill_done": true,
+  "session": {
+    "active": false,
+    "score": {
+      "us": 0,
+      "them": 0
+    },
+    "stats": {
+      "kills": {},
+      "deaths": {}
+    },
+    "last_kill_detected_at": null,
+    "message_id": null
+  }
 }
