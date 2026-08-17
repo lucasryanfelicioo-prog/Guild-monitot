@@ -25,7 +25,7 @@
   },
   "Gabiru": {
     "level": 813,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Tsunade",
     "rank": "Gabiru"
   },
@@ -43,7 +43,7 @@
   },
   "Scooby": {
     "level": 805,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Yagura",
     "rank": "Scooby"
   },
@@ -145,7 +145,7 @@
   },
   "Akuma Wd": {
     "level": 554,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
   }
