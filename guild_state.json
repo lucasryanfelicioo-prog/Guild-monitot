@@ -1,31 +1,31 @@
 {
   "Will": {
     "level": 888,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Rock Lee",
     "rank": "Will"
   },
   "Pk Oshh": {
     "level": 885,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Nagato",
     "rank": "Pk Oshh"
   },
   "Tsukuyomi Infinito": {
-    "level": 969,
-    "status": "Online",
+    "level": 970,
+    "status": "Offline",
     "vocation": "Madara",
     "rank": "Tsukuyomi Infinito"
   },
   "Alucardd": {
     "level": 694,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Hagoromo",
     "rank": "Alucardd"
   },
   "Gabiru": {
     "level": 813,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Tsunade",
     "rank": "Gabiru"
   },
@@ -43,7 +43,7 @@
   },
   "Scooby": {
     "level": 805,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Yagura",
     "rank": "Scooby"
   },
@@ -54,20 +54,20 @@
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
-    "level": 846,
-    "status": "Online",
+    "level": 847,
+    "status": "Offline",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
   "Veyk": {
     "level": 819,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Veyk"
   },
   "Hitogoroshi": {
     "level": 811,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Minato",
     "rank": "Hitogoroshi"
   },
@@ -145,7 +145,7 @@
   },
   "Akuma Wd": {
     "level": 571,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
   }
