@@ -24,5 +24,8 @@
     },
     "last_kill_detected_at": null,
     "message_id": null
+  },
+  "pending": {
+    "events": []
   }
 }
