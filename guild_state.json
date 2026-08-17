@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 890,
+    "level": 888,
     "status": "Online",
     "vocation": "Rock Lee",
     "rank": "Will"
@@ -144,8 +144,8 @@
     "rank": "Blacklee"
   },
   "Akuma Wd": {
-    "level": 558,
-    "status": "Online",
+    "level": 556,
+    "status": "Offline",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
   }
