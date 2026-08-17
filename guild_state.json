@@ -1,12 +1,12 @@
 {
   "Will": {
-    "level": 894,
+    "level": 893,
     "status": "Online",
     "vocation": "Zabuza",
     "rank": "Will"
   },
   "Pk Oshh": {
-    "level": 905,
+    "level": 901,
     "status": "Online",
     "vocation": "Nagato",
     "rank": "Pk Oshh"
@@ -85,7 +85,7 @@
   },
   "Caixao De Areia": {
     "level": 614,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Zetsu",
     "rank": "Caixao De Areia"
   },
