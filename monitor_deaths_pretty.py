@@ -55,6 +55,11 @@ COLOR_ALERT = 0xFF0000
 # se ficar mais que isso sem nenhum war kill novo, a sessao de war e considerada encerrada
 SESSION_GAP_MINUTES = int(os.environ.get("WAR_SESSION_GAP_MINUTES", "20"))
 
+# so vira "war de verdade" (e comeca a postar no Discord) quando passar desse
+# numero de kills dentro da janela curta abaixo. Antes disso fica em silencio.
+MIN_KILLS_TO_DECLARE_WAR = int(os.environ.get("WAR_MIN_KILLS", "5"))
+TRIGGER_WINDOW_MINUTES = int(os.environ.get("WAR_TRIGGER_WINDOW_MINUTES", "10"))
+
 # Resumo da war de 16/08 23:06-23:23, calculado manualmente a partir do
 # historico que o dono do bot colou. Enviado automaticamente SO na primeira
 # vez que o bot roda (deploy novo), sem precisar re-raspar o site pra achar
@@ -301,6 +306,7 @@ def empty_stats():
 def default_war_state():
     return {
         "initial_backfill_done": False,
+        "pending": {"events": []},
         "session": {
             "active": False,
             "score": {"us": 0, "them": 0},
@@ -389,6 +395,7 @@ def main():
     death_state = load_json(DEATH_STATE_FILE, {})
     war_state = load_json(WAR_STATE_FILE, default_war_state())
     war_state.setdefault("initial_backfill_done", False)
+    war_state.setdefault("pending", {"events": []})
     war_state.setdefault("session", default_war_state()["session"])
 
     war_events = []
@@ -418,35 +425,74 @@ def main():
     war_state["initial_backfill_done"] = True  # nao faz backfill de novo, mesmo que essa 1a rodada nao tivesse war
 
     session = war_state["session"]
+    pending = war_state["pending"]
 
     # ===== CASO 2: tem war kills novos agora =====
     if war_events:
-        last_detected = session.get("last_kill_detected_at")
-        gap_minutes = None
-        if last_detected:
-            try:
-                last_dt = datetime.fromisoformat(last_detected)
-                gap_minutes = (now - last_dt).total_seconds() / 60
-            except ValueError:
-                gap_minutes = None
+        if session["active"]:
+            # ja tinha guerra declarada -> so soma normal
+            last_detected = session.get("last_kill_detected_at")
+            gap_minutes = None
+            if last_detected:
+                try:
+                    last_dt = datetime.fromisoformat(last_detected)
+                    gap_minutes = (now - last_dt).total_seconds() / 60
+                except ValueError:
+                    gap_minutes = None
 
-        is_new_session = (not session["active"]) or (gap_minutes is not None and gap_minutes > SESSION_GAP_MINUTES)
+            if gap_minutes is not None and gap_minutes > SESSION_GAP_MINUTES:
+                # a "sessao ativa" na verdade ja tinha esfriado - trata como nova guerra
+                session["active"] = False
+                session["score"] = {"us": 0, "them": 0}
+                session["stats"] = empty_stats()
+                session["message_id"] = None
 
-        if is_new_session:
-            session["active"] = True
-            session["score"] = {"us": 0, "them": 0}
-            session["stats"] = empty_stats()
-            session["message_id"] = None
+        if session["active"]:
+            apply_war_events(war_events, session["score"], session["stats"])
+            session["last_kill_detected_at"] = now.isoformat()
 
-        apply_war_events(war_events, session["score"], session["stats"])
-        session["last_kill_detected_at"] = now.isoformat()
+            embed = build_war_embed(session["score"], session["stats"], live=True)
+            message_id = post_or_edit_webhook_message({"embeds": [embed]}, message_id=session.get("message_id"))
+            if message_id:
+                session["message_id"] = message_id
 
-        embed = build_war_embed(session["score"], session["stats"], live=True)
-        message_id = post_or_edit_webhook_message({"embeds": [embed]}, message_id=session.get("message_id"))
-        if message_id:
-            session["message_id"] = message_id
+            print(f"[OK] {len(war_events)} war kill(s) nova(s). Sessao ativa: {GUILD_US_NAME} {session['score']['us']} x {session['score']['them']} {GUILD_THEM_NAME}")
+        else:
+            # ainda nao foi declarada guerra - acumula no buffer de espera (silencioso)
+            for ev in war_events:
+                ev["detected_at"] = now.isoformat()
+                pending["events"].append(ev)
 
-        print(f"[OK] {len(war_events)} war kill(s) nova(s). Sessao: {GUILD_US_NAME} {session['score']['us']} x {session['score']['them']} {GUILD_THEM_NAME}")
+            # remove do buffer eventos fora da janela curta
+            fresh_events = []
+            for ev in pending["events"]:
+                try:
+                    ev_dt = datetime.fromisoformat(ev["detected_at"])
+                except ValueError:
+                    continue
+                if (now - ev_dt).total_seconds() / 60 <= TRIGGER_WINDOW_MINUTES:
+                    fresh_events.append(ev)
+            pending["events"] = fresh_events
+
+            if len(pending["events"]) > MIN_KILLS_TO_DECLARE_WAR:
+                # passou do limite -> declara guerra AGORA, com tudo que tava no buffer
+                session["active"] = True
+                session["score"] = {"us": 0, "them": 0}
+                session["stats"] = empty_stats()
+                session["message_id"] = None
+
+                apply_war_events(pending["events"], session["score"], session["stats"])
+                session["last_kill_detected_at"] = now.isoformat()
+                pending["events"] = []
+
+                embed = build_war_embed(session["score"], session["stats"], live=True)
+                message_id = post_or_edit_webhook_message({"embeds": [embed]})
+                if message_id:
+                    session["message_id"] = message_id
+
+                print(f"[OK] Guerra DECLARADA! {GUILD_US_NAME} {session['score']['us']} x {session['score']['them']} {GUILD_THEM_NAME}")
+            else:
+                print(f"[OK] {len(war_events)} kill(s) suspeita(s) - {len(pending['events'])}/{MIN_KILLS_TO_DECLARE_WAR + 1} pra declarar guerra (aguardando).")
 
     # ===== CASO 3: sem war kills novos - checa se uma sessao ativa deve encerrar =====
     elif session["active"]:
@@ -475,6 +521,7 @@ def main():
         print("[OK] Nenhuma war kill nova. Sem sessao ativa.")
 
     war_state["session"] = session
+    war_state["pending"] = pending
     save_json(WAR_STATE_FILE, war_state)
 
 
