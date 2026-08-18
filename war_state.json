@@ -26,6 +26,15 @@
     "message_id": null
   },
   "pending": {
-    "events": []
+    "events": [
+      {
+        "victim": "Mohamed Sz",
+        "side": "us",
+        "killers": [
+          "Okarun"
+        ],
+        "detected_at": "2026-08-18T19:28:48.519845+00:00"
+      }
+    ]
   }
 }
