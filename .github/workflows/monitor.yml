@@ -32,15 +32,11 @@ jobs:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: python monitor_guild.py
 
-      - name: Rodar checagem de mortes (embeds bonitos)
+      - name: Rodar checagem de mortes + war (AKATSUKI x NIRVANA)
         env:
           DEATH_WEBHOOK_URL: ${{ secrets.DEATH_WEBHOOK_URL }}
-        run: python monitor_deaths_pretty.py
-
-      - name: Rodar checagem da war (placar AKATSUKI x NIRVANA)
-        env:
           WAR_WEBHOOK_URL: ${{ secrets.WAR_WEBHOOK_URL }}
-        run: python monitor_war.py
+        run: python monitor_deaths_pretty.py
 
       - name: Salvar estado atualizado no repositorio
         run: |
