@@ -26,6 +26,15 @@
     "message_id": null
   },
   "pending": {
-    "events": []
+    "events": [
+      {
+        "victim": "Pocas Trancas",
+        "side": "us",
+        "killers": [
+          "Will"
+        ],
+        "detected_at": "2026-08-18T00:37:01.148457+00:00"
+      }
+    ]
   }
 }
