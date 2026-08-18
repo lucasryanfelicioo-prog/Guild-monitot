@@ -44,6 +44,31 @@
           "Will"
         ],
         "detected_at": "2026-08-18T02:24:58.763172+00:00"
+      },
+      {
+        "victim": "Gault",
+        "side": "us",
+        "killers": [
+          "Will"
+        ],
+        "detected_at": "2026-08-18T02:31:09.509325+00:00"
+      },
+      {
+        "victim": "Top Sword",
+        "side": "them",
+        "killers": [
+          "Play Rica",
+          "Kill Men"
+        ],
+        "detected_at": "2026-08-18T02:31:09.509325+00:00"
+      },
+      {
+        "victim": "Saikopasu",
+        "side": "them",
+        "killers": [
+          "Gault"
+        ],
+        "detected_at": "2026-08-18T02:31:09.509325+00:00"
       }
     ]
   }
