@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Marea Turbo",
-        "side": "us",
+        "victim": "Veyk",
+        "side": "them",
         "killers": [
-          "Hitogoroshi"
+          "Gault"
         ],
-        "detected_at": "2026-08-18T02:11:03.940677+00:00"
+        "detected_at": "2026-08-18T02:21:15.436354+00:00"
       }
     ]
   }
