@@ -13,47 +13,37 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": false,
+    "active": true,
     "score": {
       "us": 0,
-      "them": 0
+      "them": 17
     },
     "stats": {
-      "kills": {},
-      "deaths": {}
+      "kills": {
+        "Top Sword": 17,
+        "Will": 9,
+        "Darkness Arsenis": 6,
+        "Saikopasu": 8,
+        "Scooby": 10,
+        "Pk Oshh": 10
+      },
+      "deaths": {
+        "Jowe": 1,
+        "Hiizzo": 1,
+        "Pocas Trancas": 1,
+        "Tuff": 2,
+        "Pklizo Por Hobby": 5,
+        "Shanks": 1,
+        "Brabinho": 2,
+        "Paulo War": 1,
+        "Healing": 1,
+        "Legacy": 2
+      }
     },
-    "last_kill_detected_at": null,
-    "message_id": null
+    "last_kill_detected_at": "2026-08-18T00:09:10.592793+00:00",
+    "message_id": "1539063575471988820"
   },
   "pending": {
-    "events": [
-      {
-        "victim": "Pk Oshh",
-        "side": "them",
-        "killers": [
-          "Legacy",
-          "Jowe"
-        ],
-        "detected_at": "2026-08-17T22:11:07.774155+00:00"
-      },
-      {
-        "victim": "Akuma Wd",
-        "side": "them",
-        "killers": [
-          "Kylian Mbappe"
-        ],
-        "detected_at": "2026-08-17T22:12:58.663560+00:00"
-      },
-      {
-        "victim": "Pk Oshh",
-        "side": "them",
-        "killers": [
-          "Legacy",
-          "Solado",
-          "Atlas"
-        ],
-        "detected_at": "2026-08-17T22:17:00.854509+00:00"
-      }
-    ]
+    "events": []
   }
 }
