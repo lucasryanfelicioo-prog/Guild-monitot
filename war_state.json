@@ -28,12 +28,13 @@
   "pending": {
     "events": [
       {
-        "victim": "Pocas Trancas",
+        "victim": "Gault",
         "side": "us",
         "killers": [
-          "Will"
+          "Will",
+          "Biit"
         ],
-        "detected_at": "2026-08-18T00:37:01.148457+00:00"
+        "detected_at": "2026-08-18T01:04:57.434748+00:00"
       }
     ]
   }
