@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Mohamed Sz",
-        "side": "us",
+        "victim": "Hitogoroshi",
+        "side": "them",
         "killers": [
-          "Okarun"
+          "Pocas Trancas"
         ],
-        "detected_at": "2026-08-18T19:28:48.519845+00:00"
+        "detected_at": "2026-08-18T20:26:50.909821+00:00"
       }
     ]
   }
