@@ -31,6 +31,12 @@ WEBHOOK_URL = os.environ.get(
     "https://discord.com/api/webhooks/1537727788243746900/JIXI06TtDr44HhH9BSQrDvJKxCWupj3vrNXlNABPVm44XIqRd2jjnO4ZYFJMDRiw4-7D",
 )
 
+# webhook separado so pra mensagens de WAR (ao vivo / encerrada / resumo inicial)
+WAR_WEBHOOK_URL = os.environ.get(
+    "WAR_WEBHOOK_URL",
+    "https://discord.com/api/webhooks/1538361770303946823/_X-33nsri3hElnRbADABgoDYRi5iilNysHCu_9cohha_v5hkGUsVT2nY0GkVXoRN0Nj1",
+)
+
 GUILD_US_URL = os.environ.get("GUILD_US_URL", "https://ntovikings.com/guilds/A+K+A+T+S+U+K+I")
 GUILD_THEM_URL = os.environ.get("GUILD_THEM_URL", "https://ntovikings.com/guilds/N+I+R+V+A+N+A")
 GUILD_US_NAME = "AKATSUKI"
@@ -74,26 +80,28 @@ KNOWN_BACKFILL_TITLE = "🏁 Resumo da War (23:06 às 23:23 de 16/08)"
 
 # ==================== DISCORD ====================
 
-def send_discord_message(payload):
+def send_discord_message(payload, webhook_url=None):
+    url = webhook_url or WEBHOOK_URL
     try:
-        r = requests.post(WEBHOOK_URL, json=payload, timeout=10)
+        r = requests.post(url, json=payload, timeout=10)
         if r.status_code >= 300:
             print(f"[AVISO] Discord retornou status {r.status_code}: {r.text}")
     except Exception as e:
         print("[ERRO] Falha ao enviar para o Discord:", e)
 
 
-def post_or_edit_webhook_message(payload, message_id=None):
+def post_or_edit_webhook_message(payload, message_id=None, webhook_url=None):
+    url_base = webhook_url or WEBHOOK_URL
     try:
         if message_id:
-            url = f"{WEBHOOK_URL}/messages/{message_id}"
+            url = f"{url_base}/messages/{message_id}"
             r = requests.patch(url, json=payload, timeout=10)
             if r.status_code >= 300:
                 print(f"[AVISO] Falha ao editar mensagem ({r.status_code}): {r.text}")
                 return None
             return message_id
         else:
-            url = f"{WEBHOOK_URL}?wait=true"
+            url = f"{url_base}?wait=true"
             r = requests.post(url, json=payload, timeout=10)
             if r.status_code >= 300:
                 print(f"[AVISO] Falha ao criar mensagem ({r.status_code}): {r.text}")
@@ -358,14 +366,15 @@ def process_character(name, vocation, side, death_state, rival_set, war_events, 
         is_pvp = bool(d["killers"])
 
         if not is_pvp:
-            send_normal_death_embed(name, vocation, d["level"], d["date"], False, monster=d["monster"])
+            if side == "them":  # so notifica morte normal (PvE) dos inimigos, nao dos nossos
+                send_normal_death_embed(name, vocation, d["level"], d["date"], False, monster=d["monster"])
             continue
 
         rival_killers = [k for k in d["killers"] if k in rival_set]
 
         if rival_killers:
             war_events.append({"victim": name, "side": side, "killers": rival_killers})
-        else:
+        elif side == "them":  # so notifica PvP normal (fora da war) dos inimigos, nao dos nossos
             send_normal_death_embed(name, vocation, d["level"], d["date"], True, killers=d["killers"])
 
     death_state[name] = current_keys[:MAX_KEYS_PER_CHAR]
@@ -415,7 +424,7 @@ def main():
     # ===== CASO 1: primeira ativacao -> manda o resumo ja calculado (fixo) =====
     if is_very_first_run and not war_state["initial_backfill_done"]:
         embed = build_backfill_embed(KNOWN_BACKFILL_SCORE, KNOWN_BACKFILL_STATS, title=KNOWN_BACKFILL_TITLE)
-        send_discord_message({"embeds": [embed]})
+        send_discord_message({"embeds": [embed]}, webhook_url=WAR_WEBHOOK_URL)
 
         war_state["initial_backfill_done"] = True
         save_json(WAR_STATE_FILE, war_state)
@@ -452,7 +461,7 @@ def main():
             session["last_kill_detected_at"] = now.isoformat()
 
             embed = build_war_embed(session["score"], session["stats"], live=True)
-            message_id = post_or_edit_webhook_message({"embeds": [embed]}, message_id=session.get("message_id"))
+            message_id = post_or_edit_webhook_message({"embeds": [embed]}, message_id=session.get("message_id"), webhook_url=WAR_WEBHOOK_URL)
             if message_id:
                 session["message_id"] = message_id
 
@@ -486,7 +495,7 @@ def main():
                 pending["events"] = []
 
                 embed = build_war_embed(session["score"], session["stats"], live=True)
-                message_id = post_or_edit_webhook_message({"embeds": [embed]})
+                message_id = post_or_edit_webhook_message({"embeds": [embed]}, webhook_url=WAR_WEBHOOK_URL)
                 if message_id:
                     session["message_id"] = message_id
 
@@ -507,7 +516,7 @@ def main():
 
         if gap_minutes is not None and gap_minutes > SESSION_GAP_MINUTES:
             embed = build_war_embed(session["score"], session["stats"], live=False)
-            post_or_edit_webhook_message({"embeds": [embed]}, message_id=session.get("message_id"))
+            post_or_edit_webhook_message({"embeds": [embed]}, message_id=session.get("message_id"), webhook_url=WAR_WEBHOOK_URL)
 
             print(f"[OK] War encerrada - placar final {GUILD_US_NAME} {session['score']['us']} x {session['score']['them']} {GUILD_THEM_NAME}")
 
