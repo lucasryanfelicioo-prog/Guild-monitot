@@ -28,22 +28,6 @@
   "pending": {
     "events": [
       {
-        "victim": "Heisein Berg",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-18T21:21:01.533811+00:00"
-      },
-      {
-        "victim": "Mohamed Sz",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-18T21:21:01.533811+00:00"
-      },
-      {
         "victim": "Will",
         "side": "them",
         "killers": [
@@ -66,6 +50,14 @@
           "Pocas Trancas"
         ],
         "detected_at": "2026-08-18T21:28:55.308988+00:00"
+      },
+      {
+        "victim": "Pocas Trancas",
+        "side": "us",
+        "killers": [
+          "Will"
+        ],
+        "detected_at": "2026-08-18T21:31:14.066506+00:00"
       }
     ]
   }
