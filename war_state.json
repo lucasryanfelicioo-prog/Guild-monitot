@@ -31,25 +31,9 @@
         "victim": "Mohamed Sz",
         "side": "us",
         "killers": [
-          "Will"
+          "Okarun"
         ],
-        "detected_at": "2026-08-18T16:58:58.327938+00:00"
-      },
-      {
-        "victim": "Mohamed Sz",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-18T17:01:13.163253+00:00"
-      },
-      {
-        "victim": "Mohamed Sz",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-18T17:01:13.163253+00:00"
+        "detected_at": "2026-08-18T18:14:59.475816+00:00"
       }
     ]
   }
