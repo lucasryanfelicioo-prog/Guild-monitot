@@ -28,21 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Will",
-        "side": "them",
-        "killers": [
-          "Legacy",
-          "Brabinho"
-        ],
-        "detected_at": "2026-08-18T16:31:07.986437+00:00"
-      },
-      {
-        "victim": "Hiizzo",
+        "victim": "Mohamed Sz",
         "side": "us",
         "killers": [
           "Will"
         ],
-        "detected_at": "2026-08-18T16:40:58.513632+00:00"
+        "detected_at": "2026-08-18T16:58:58.327938+00:00"
       }
     ]
   }
