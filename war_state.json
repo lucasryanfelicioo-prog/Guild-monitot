@@ -34,6 +34,16 @@
           "Gault"
         ],
         "detected_at": "2026-08-18T02:21:15.436354+00:00"
+      },
+      {
+        "victim": "Gault",
+        "side": "us",
+        "killers": [
+          "Top Sword",
+          "Saikopasu",
+          "Will"
+        ],
+        "detected_at": "2026-08-18T02:24:58.763172+00:00"
       }
     ]
   }
