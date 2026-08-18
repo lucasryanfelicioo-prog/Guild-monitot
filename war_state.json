@@ -26,6 +26,16 @@
     "message_id": null
   },
   "pending": {
-    "events": []
+    "events": [
+      {
+        "victim": "Pk Oshh",
+        "side": "them",
+        "killers": [
+          "Washed",
+          "Jowe"
+        ],
+        "detected_at": "2026-08-18T22:31:08.196757+00:00"
+      }
+    ]
   }
 }
