@@ -28,14 +28,6 @@
   "pending": {
     "events": [
       {
-        "victim": "Veyk",
-        "side": "them",
-        "killers": [
-          "Gault"
-        ],
-        "detected_at": "2026-08-18T02:21:15.436354+00:00"
-      },
-      {
         "victim": "Gault",
         "side": "us",
         "killers": [
@@ -69,6 +61,16 @@
           "Gault"
         ],
         "detected_at": "2026-08-18T02:31:09.509325+00:00"
+      },
+      {
+        "victim": "Hitogoroshi",
+        "side": "them",
+        "killers": [
+          "Brabinho",
+          "Jowe",
+          "Hiizzo"
+        ],
+        "detected_at": "2026-08-18T02:32:58.360610+00:00"
       }
     ]
   }
