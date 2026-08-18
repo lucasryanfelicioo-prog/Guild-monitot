@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Pocas Trancas",
-        "side": "us",
+        "victim": "Hitogoroshi",
+        "side": "them",
         "killers": [
-          "Will"
+          "Marea Turbo"
         ],
-        "detected_at": "2026-08-18T06:42:58.955984+00:00"
+        "detected_at": "2026-08-18T12:31:04.043210+00:00"
       }
     ]
   }
