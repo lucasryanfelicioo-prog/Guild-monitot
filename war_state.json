@@ -13,60 +13,23 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": false,
+    "active": true,
     "score": {
       "us": 0,
-      "them": 0
+      "them": 6
     },
     "stats": {
-      "kills": {},
-      "deaths": {}
+      "kills": {
+        "Okarun": 6
+      },
+      "deaths": {
+        "Mohamed Sz": 6
+      }
     },
-    "last_kill_detected_at": "2026-08-18T00:09:10.592793+00:00",
-    "message_id": null
+    "last_kill_detected_at": "2026-08-18T18:23:01.515933+00:00",
+    "message_id": "1539338850910998591"
   },
   "pending": {
-    "events": [
-      {
-        "victim": "Mohamed Sz",
-        "side": "us",
-        "killers": [
-          "Okarun"
-        ],
-        "detected_at": "2026-08-18T18:14:59.475816+00:00"
-      },
-      {
-        "victim": "Mohamed Sz",
-        "side": "us",
-        "killers": [
-          "Okarun"
-        ],
-        "detected_at": "2026-08-18T18:16:58.127742+00:00"
-      },
-      {
-        "victim": "Mohamed Sz",
-        "side": "us",
-        "killers": [
-          "Okarun"
-        ],
-        "detected_at": "2026-08-18T18:18:55.470122+00:00"
-      },
-      {
-        "victim": "Mohamed Sz",
-        "side": "us",
-        "killers": [
-          "Okarun"
-        ],
-        "detected_at": "2026-08-18T18:18:55.470122+00:00"
-      },
-      {
-        "victim": "Mohamed Sz",
-        "side": "us",
-        "killers": [
-          "Okarun"
-        ],
-        "detected_at": "2026-08-18T18:20:59.989993+00:00"
-      }
-    ]
+    "events": []
   }
 }
