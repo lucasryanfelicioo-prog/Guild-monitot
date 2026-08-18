@@ -1,7 +1,7 @@
 {
   "Will": {
-    "level": 890,
-    "status": "Offline",
+    "level": 889,
+    "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
   },
@@ -19,7 +19,7 @@
   },
   "Alucardd": {
     "level": 694,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Hagoromo",
     "rank": "Alucardd"
   },
@@ -144,7 +144,7 @@
     "rank": "Blacklee"
   },
   "Akuma Wd": {
-    "level": 585,
+    "level": 586,
     "status": "Online",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
