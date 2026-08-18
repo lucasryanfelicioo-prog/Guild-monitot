@@ -17,12 +17,6 @@
     "vocation": "Tobirama",
     "rank": "Top Sword"
   },
-  "Alucardd": {
-    "level": 694,
-    "status": "Online",
-    "vocation": "Madara",
-    "rank": "Alucardd"
-  },
   "Gabiru": {
     "level": 813,
     "status": "Offline",
@@ -145,7 +139,7 @@
   },
   "Akuma Wd": {
     "level": 584,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
   }
