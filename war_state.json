@@ -34,6 +34,14 @@
           "Top Sword"
         ],
         "detected_at": "2026-08-18T13:33:01.761073+00:00"
+      },
+      {
+        "victim": "Top Sword",
+        "side": "them",
+        "killers": [
+          "Legacy"
+        ],
+        "detected_at": "2026-08-18T13:37:01.058826+00:00"
       }
     ]
   }
