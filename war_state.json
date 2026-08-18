@@ -28,13 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Gault",
+        "victim": "Marea Turbo",
         "side": "us",
         "killers": [
-          "Will",
-          "Biit"
+          "Hitogoroshi"
         ],
-        "detected_at": "2026-08-18T01:04:57.434748+00:00"
+        "detected_at": "2026-08-18T02:11:03.940677+00:00"
       }
     ]
   }
