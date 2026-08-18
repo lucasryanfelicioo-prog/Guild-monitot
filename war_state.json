@@ -13,35 +13,17 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": true,
+    "active": false,
     "score": {
       "us": 0,
-      "them": 17
+      "them": 0
     },
     "stats": {
-      "kills": {
-        "Top Sword": 17,
-        "Will": 9,
-        "Darkness Arsenis": 6,
-        "Saikopasu": 8,
-        "Scooby": 10,
-        "Pk Oshh": 10
-      },
-      "deaths": {
-        "Jowe": 1,
-        "Hiizzo": 1,
-        "Pocas Trancas": 1,
-        "Tuff": 2,
-        "Pklizo Por Hobby": 5,
-        "Shanks": 1,
-        "Brabinho": 2,
-        "Paulo War": 1,
-        "Healing": 1,
-        "Legacy": 2
-      }
+      "kills": {},
+      "deaths": {}
     },
     "last_kill_detected_at": "2026-08-18T00:09:10.592793+00:00",
-    "message_id": "1539063575471988820"
+    "message_id": null
   },
   "pending": {
     "events": []
