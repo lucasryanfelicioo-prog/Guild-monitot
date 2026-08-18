@@ -35,6 +35,23 @@
           "Saikopasu"
         ],
         "detected_at": "2026-08-18T03:05:00.129656+00:00"
+      },
+      {
+        "victim": "Hiizzo",
+        "side": "us",
+        "killers": [
+          "Will"
+        ],
+        "detected_at": "2026-08-18T03:07:07.243796+00:00"
+      },
+      {
+        "victim": "Saikopasu",
+        "side": "them",
+        "killers": [
+          "Pocas Trancas",
+          "Tuff"
+        ],
+        "detected_at": "2026-08-18T03:07:07.243796+00:00"
       }
     ]
   }
