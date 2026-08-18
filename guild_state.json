@@ -43,7 +43,7 @@
   },
   "Scooby": {
     "level": 806,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Shisui",
     "rank": "Scooby"
   },
@@ -55,7 +55,7 @@
   },
   "Saikopasu": {
     "level": 851,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
@@ -97,7 +97,7 @@
   },
   "Biit": {
     "level": 792,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Biit"
   },
