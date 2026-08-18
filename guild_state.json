@@ -42,7 +42,7 @@
     "rank": "Dail Cool"
   },
   "Scooby": {
-    "level": 806,
+    "level": 804,
     "status": "Online",
     "vocation": "Shisui",
     "rank": "Scooby"
@@ -79,7 +79,7 @@
   },
   "Okarun": {
     "level": 669,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Nagato",
     "rank": "Okarun"
   },
@@ -144,7 +144,7 @@
     "rank": "Blacklee"
   },
   "Akuma Wd": {
-    "level": 587,
+    "level": 588,
     "status": "Online",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
