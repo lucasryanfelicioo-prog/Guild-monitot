@@ -28,49 +28,13 @@
   "pending": {
     "events": [
       {
-        "victim": "Gault",
+        "victim": "Tuff",
         "side": "us",
         "killers": [
-          "Top Sword",
-          "Saikopasu",
-          "Will"
+          "Will",
+          "Saikopasu"
         ],
-        "detected_at": "2026-08-18T02:24:58.763172+00:00"
-      },
-      {
-        "victim": "Gault",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-18T02:31:09.509325+00:00"
-      },
-      {
-        "victim": "Top Sword",
-        "side": "them",
-        "killers": [
-          "Play Rica",
-          "Kill Men"
-        ],
-        "detected_at": "2026-08-18T02:31:09.509325+00:00"
-      },
-      {
-        "victim": "Saikopasu",
-        "side": "them",
-        "killers": [
-          "Gault"
-        ],
-        "detected_at": "2026-08-18T02:31:09.509325+00:00"
-      },
-      {
-        "victim": "Hitogoroshi",
-        "side": "them",
-        "killers": [
-          "Brabinho",
-          "Jowe",
-          "Hiizzo"
-        ],
-        "detected_at": "2026-08-18T02:32:58.360610+00:00"
+        "detected_at": "2026-08-18T03:05:00.129656+00:00"
       }
     ]
   }
