@@ -16,17 +16,17 @@
     "active": true,
     "score": {
       "us": 0,
-      "them": 8
+      "them": 9
     },
     "stats": {
       "kills": {
-        "Okarun": 8
+        "Okarun": 9
       },
       "deaths": {
-        "Mohamed Sz": 8
+        "Mohamed Sz": 9
       }
     },
-    "last_kill_detected_at": "2026-08-18T18:29:02.739953+00:00",
+    "last_kill_detected_at": "2026-08-18T18:31:14.377043+00:00",
     "message_id": "1539338850910998591"
   },
   "pending": {
