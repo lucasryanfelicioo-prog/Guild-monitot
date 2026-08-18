@@ -15,18 +15,21 @@
   "session": {
     "active": true,
     "score": {
-      "us": 0,
+      "us": 1,
       "them": 12
     },
     "stats": {
       "kills": {
-        "Okarun": 12
+        "Okarun": 12,
+        "Brabinho": 1,
+        "Jowe": 1
       },
       "deaths": {
-        "Mohamed Sz": 12
+        "Mohamed Sz": 12,
+        "Okarun": 1
       }
     },
-    "last_kill_detected_at": "2026-08-18T18:41:14.193098+00:00",
+    "last_kill_detected_at": "2026-08-18T18:42:55.188423+00:00",
     "message_id": "1539338850910998591"
   },
   "pending": {
