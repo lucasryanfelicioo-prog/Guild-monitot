@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 901,
+    "level": 899,
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
@@ -12,20 +12,20 @@
     "rank": "Pk Oshh"
   },
   "Top Sword": {
-    "level": 967,
+    "level": 966,
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Top Sword"
   },
   "Gabiru": {
-    "level": 815,
+    "level": 816,
     "status": "Online",
     "vocation": "Zetsu",
     "rank": "Gabiru"
   },
   "Green": {
     "level": 781,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Madara",
     "rank": "Green"
   },
@@ -79,7 +79,7 @@
   },
   "Caixao De Areia": {
     "level": 607,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Zetsu",
     "rank": "Caixao De Areia"
   },
