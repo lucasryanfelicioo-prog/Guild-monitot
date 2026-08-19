@@ -13,7 +13,7 @@
   },
   "Top Sword": {
     "level": 966,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Tobirama",
     "rank": "Top Sword"
   },
@@ -84,7 +84,7 @@
     "rank": "Caixao De Areia"
   },
   "Bratva": {
-    "level": 861,
+    "level": 862,
     "status": "Online",
     "vocation": "Deidara",
     "rank": "Bratva"
