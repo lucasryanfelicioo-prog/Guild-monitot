@@ -28,24 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Gault",
-        "side": "us",
+        "victim": "Scooby",
+        "side": "them",
         "killers": [
-          "Will",
-          "Pk Oshh",
-          "Saikopasu"
+          "Gault"
         ],
-        "detected_at": "2026-08-19T00:44:56.626107+00:00"
-      },
-      {
-        "victim": "Healing",
-        "side": "us",
-        "killers": [
-          "Will",
-          "Pk Oshh",
-          "Saikopasu"
-        ],
-        "detected_at": "2026-08-19T00:46:56.920367+00:00"
+        "detected_at": "2026-08-19T00:58:57.336957+00:00"
       }
     ]
   }
