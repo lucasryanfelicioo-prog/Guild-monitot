@@ -15,17 +15,18 @@
   "session": {
     "active": true,
     "score": {
-      "us": 4,
+      "us": 7,
       "them": 7
     },
     "stats": {
       "kills": {
-        "Gault": 3,
+        "Gault": 6,
         "Will": 7,
         "Pk Oshh": 7,
-        "Pklizo Por Hobby": 2,
-        "Pocas Trancas": 2,
-        "Saikopasu": 3
+        "Pklizo Por Hobby": 5,
+        "Pocas Trancas": 5,
+        "Saikopasu": 3,
+        "Mohamed Sz": 3
       },
       "deaths": {
         "Will": 2,
@@ -34,10 +35,11 @@
         "Pocas Trancas": 2,
         "Mohamed Sz": 1,
         "Pklizo Por Hobby": 1,
-        "Saikopasu": 1
+        "Saikopasu": 3,
+        "Pk Oshh": 1
       }
     },
-    "last_kill_detected_at": "2026-08-19T02:45:23.267019+00:00",
+    "last_kill_detected_at": "2026-08-19T02:47:18.127007+00:00",
     "message_id": "1539464173640089732"
   },
   "pending": {
