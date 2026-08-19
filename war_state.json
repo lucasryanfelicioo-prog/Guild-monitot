@@ -28,20 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Dail Cool",
-        "side": "them",
+        "victim": "Pklizo Por Hobby",
+        "side": "us",
         "killers": [
-          "Mohamed Sz"
+          "Saikopasu"
         ],
-        "detected_at": "2026-08-19T01:58:54.536089+00:00"
-      },
-      {
-        "victim": "Dail Cool",
-        "side": "them",
-        "killers": [
-          "Pklizo Por Hobby"
-        ],
-        "detected_at": "2026-08-19T02:07:05.784477+00:00"
+        "detected_at": "2026-08-19T02:18:53.417909+00:00"
       }
     ]
   }
