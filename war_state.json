@@ -13,60 +13,23 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": false,
+    "active": true,
     "score": {
-      "us": 0,
+      "us": 6,
       "them": 0
     },
     "stats": {
-      "kills": {},
-      "deaths": {}
+      "kills": {
+        "Pocas Trancas": 6
+      },
+      "deaths": {
+        "Okarun": 6
+      }
     },
-    "last_kill_detected_at": "2026-08-19T03:31:11.743598+00:00",
-    "message_id": null
+    "last_kill_detected_at": "2026-08-19T20:10:58.442495+00:00",
+    "message_id": "1539728405296054523"
   },
   "pending": {
-    "events": [
-      {
-        "victim": "Okarun",
-        "side": "them",
-        "killers": [
-          "Pocas Trancas"
-        ],
-        "detected_at": "2026-08-19T20:04:55.359710+00:00"
-      },
-      {
-        "victim": "Okarun",
-        "side": "them",
-        "killers": [
-          "Pocas Trancas"
-        ],
-        "detected_at": "2026-08-19T20:06:54.332699+00:00"
-      },
-      {
-        "victim": "Okarun",
-        "side": "them",
-        "killers": [
-          "Pocas Trancas"
-        ],
-        "detected_at": "2026-08-19T20:06:54.332699+00:00"
-      },
-      {
-        "victim": "Okarun",
-        "side": "them",
-        "killers": [
-          "Pocas Trancas"
-        ],
-        "detected_at": "2026-08-19T20:09:04.300954+00:00"
-      },
-      {
-        "victim": "Okarun",
-        "side": "them",
-        "killers": [
-          "Pocas Trancas"
-        ],
-        "detected_at": "2026-08-19T20:09:04.300954+00:00"
-      }
-    ]
+    "events": []
   }
 }
