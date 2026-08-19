@@ -44,6 +44,25 @@
           "Solado"
         ],
         "detected_at": "2026-08-19T01:01:10.675232+00:00"
+      },
+      {
+        "victim": "Pk Oshh",
+        "side": "them",
+        "killers": [
+          "Paulo War",
+          "Healing",
+          "Solado",
+          "Mohamed Sz"
+        ],
+        "detected_at": "2026-08-19T01:02:54.626732+00:00"
+      },
+      {
+        "victim": "Pk Oshh",
+        "side": "them",
+        "killers": [
+          "Paulo War"
+        ],
+        "detected_at": "2026-08-19T01:02:54.626732+00:00"
       }
     ]
   }
