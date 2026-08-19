@@ -28,13 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Will",
+        "victim": "Dail Cool",
         "side": "them",
         "killers": [
-          "Pocas Trancas",
-          "Jowe"
+          "Legacy"
         ],
-        "detected_at": "2026-08-19T20:44:54.978923+00:00"
+        "detected_at": "2026-08-19T21:16:58.004253+00:00"
       }
     ]
   }
