@@ -31,27 +31,17 @@
         "victim": "Dail Cool",
         "side": "them",
         "killers": [
-          "Mohamed Sz",
-          "Shanks"
-        ],
-        "detected_at": "2026-08-19T01:54:55.967416+00:00"
-      },
-      {
-        "victim": "Dail Cool",
-        "side": "them",
-        "killers": [
-          "Mohamed Sz",
-          "Shanks"
-        ],
-        "detected_at": "2026-08-19T01:56:55.861609+00:00"
-      },
-      {
-        "victim": "Dail Cool",
-        "side": "them",
-        "killers": [
           "Mohamed Sz"
         ],
         "detected_at": "2026-08-19T01:58:54.536089+00:00"
+      },
+      {
+        "victim": "Dail Cool",
+        "side": "them",
+        "killers": [
+          "Pklizo Por Hobby"
+        ],
+        "detected_at": "2026-08-19T02:07:05.784477+00:00"
       }
     ]
   }
