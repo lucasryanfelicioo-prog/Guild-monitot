@@ -31,14 +31,6 @@
         "victim": "Will",
         "side": "them",
         "killers": [
-          "Legacy"
-        ],
-        "detected_at": "2026-08-19T19:06:46.288107+00:00"
-      },
-      {
-        "victim": "Will",
-        "side": "them",
-        "killers": [
           "Pklizo Por Hobby",
           "Legacy",
           "Jowe"
@@ -53,6 +45,14 @@
           "Legacy"
         ],
         "detected_at": "2026-08-19T19:13:05.835897+00:00"
+      },
+      {
+        "victim": "Pk Oshh",
+        "side": "them",
+        "killers": [
+          "Pklizo Por Hobby"
+        ],
+        "detected_at": "2026-08-19T19:23:00.428876+00:00"
       }
     ]
   }
