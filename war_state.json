@@ -16,18 +16,18 @@
     "active": true,
     "score": {
       "us": 3,
-      "them": 6
+      "them": 7
     },
     "stats": {
       "kills": {
-        "Pk Oshh": 6,
+        "Pk Oshh": 7,
         "Paulo War": 3,
         "Mohamed Sz": 2,
         "Healing": 2,
         "Solado": 2,
         "Gault": 2,
-        "Top Sword": 2,
-        "Will": 4,
+        "Top Sword": 3,
+        "Will": 5,
         "Saikopasu": 3
       },
       "deaths": {
@@ -35,10 +35,11 @@
         "Pk Oshh": 2,
         "Healing": 3,
         "Saikopasu": 1,
-        "Solado": 1
+        "Solado": 1,
+        "Shanks": 1
       }
     },
-    "last_kill_detected_at": "2026-08-19T01:19:14.522594+00:00",
+    "last_kill_detected_at": "2026-08-19T01:22:56.773054+00:00",
     "message_id": "1539443095169663117"
   },
   "pending": {
