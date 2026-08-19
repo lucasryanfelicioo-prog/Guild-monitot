@@ -28,36 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Dail Cool",
-        "side": "them",
-        "killers": [
-          "Pklizo Por Hobby"
-        ],
-        "detected_at": "2026-08-19T19:42:59.769140+00:00"
-      },
-      {
         "victim": "Okarun",
         "side": "them",
         "killers": [
-          "Pklizo Por Hobby"
+          "Pocas Trancas"
         ],
-        "detected_at": "2026-08-19T19:45:01.527387+00:00"
-      },
-      {
-        "victim": "Okarun",
-        "side": "them",
-        "killers": [
-          "Pklizo Por Hobby"
-        ],
-        "detected_at": "2026-08-19T19:47:15.740754+00:00"
-      },
-      {
-        "victim": "Okarun",
-        "side": "them",
-        "killers": [
-          "Pklizo Por Hobby"
-        ],
-        "detected_at": "2026-08-19T19:47:15.740754+00:00"
+        "detected_at": "2026-08-19T20:04:55.359710+00:00"
       }
     ]
   }
