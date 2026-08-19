@@ -28,12 +28,20 @@
   "pending": {
     "events": [
       {
-        "victim": "Yakushi",
-        "side": "us",
+        "victim": "Dail Cool",
+        "side": "them",
         "killers": [
-          "Gabiru"
+          "Pocas Trancas"
         ],
-        "detected_at": "2026-08-19T15:02:56.299483+00:00"
+        "detected_at": "2026-08-19T15:15:03.717379+00:00"
+      },
+      {
+        "victim": "Okarun",
+        "side": "them",
+        "killers": [
+          "Pocas Trancas"
+        ],
+        "detected_at": "2026-08-19T15:15:03.717379+00:00"
       }
     ]
   }
