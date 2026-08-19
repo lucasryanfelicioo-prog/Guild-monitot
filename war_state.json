@@ -28,20 +28,20 @@
   "pending": {
     "events": [
       {
-        "victim": "Pklizo Por Hobby",
-        "side": "us",
-        "killers": [
-          "Saikopasu"
-        ],
-        "detected_at": "2026-08-19T02:21:04.720698+00:00"
-      },
-      {
         "victim": "Bratva",
         "side": "them",
         "killers": [
           "Pklizo Por Hobby"
         ],
         "detected_at": "2026-08-19T02:28:56.140803+00:00"
+      },
+      {
+        "victim": "Will",
+        "side": "them",
+        "killers": [
+          "Gault"
+        ],
+        "detected_at": "2026-08-19T02:34:51.869094+00:00"
       }
     ]
   }
