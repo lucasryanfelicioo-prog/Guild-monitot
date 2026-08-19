@@ -34,6 +34,16 @@
           "Gault"
         ],
         "detected_at": "2026-08-19T00:58:57.336957+00:00"
+      },
+      {
+        "victim": "Pk Oshh",
+        "side": "them",
+        "killers": [
+          "Paulo War",
+          "Healing",
+          "Solado"
+        ],
+        "detected_at": "2026-08-19T01:01:10.675232+00:00"
       }
     ]
   }
