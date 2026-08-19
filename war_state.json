@@ -13,21 +13,17 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": true,
+    "active": false,
     "score": {
-      "us": 6,
+      "us": 0,
       "them": 0
     },
     "stats": {
-      "kills": {
-        "Pocas Trancas": 6
-      },
-      "deaths": {
-        "Okarun": 6
-      }
+      "kills": {},
+      "deaths": {}
     },
     "last_kill_detected_at": "2026-08-19T20:10:58.442495+00:00",
-    "message_id": "1539728405296054523"
+    "message_id": null
   },
   "pending": {
     "events": []
