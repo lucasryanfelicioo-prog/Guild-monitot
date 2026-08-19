@@ -28,41 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Scooby",
-        "side": "them",
+        "victim": "Paulo War",
+        "side": "us",
         "killers": [
-          "Gault"
+          "Pk Oshh"
         ],
-        "detected_at": "2026-08-19T00:58:57.336957+00:00"
-      },
-      {
-        "victim": "Pk Oshh",
-        "side": "them",
-        "killers": [
-          "Paulo War",
-          "Healing",
-          "Solado"
-        ],
-        "detected_at": "2026-08-19T01:01:10.675232+00:00"
-      },
-      {
-        "victim": "Pk Oshh",
-        "side": "them",
-        "killers": [
-          "Paulo War",
-          "Healing",
-          "Solado",
-          "Mohamed Sz"
-        ],
-        "detected_at": "2026-08-19T01:02:54.626732+00:00"
-      },
-      {
-        "victim": "Pk Oshh",
-        "side": "them",
-        "killers": [
-          "Paulo War"
-        ],
-        "detected_at": "2026-08-19T01:02:54.626732+00:00"
+        "detected_at": "2026-08-19T01:12:55.141561+00:00"
       }
     ]
   }
