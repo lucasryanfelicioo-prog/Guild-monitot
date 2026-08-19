@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 887,
+    "level": 888,
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
@@ -72,7 +72,7 @@
     "rank": "Yuta"
   },
   "Okarun": {
-    "level": 641,
+    "level": 642,
     "status": "Online",
     "vocation": "Nagato",
     "rank": "Okarun"
@@ -139,7 +139,7 @@
   },
   "Akuma Wd": {
     "level": 599,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Rock Lee",
     "rank": "Akuma Wd"
   }
