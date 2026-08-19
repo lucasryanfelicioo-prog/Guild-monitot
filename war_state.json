@@ -34,6 +34,14 @@
           "Green"
         ],
         "detected_at": "2026-08-19T14:06:58.316237+00:00"
+      },
+      {
+        "victim": "Yakushi",
+        "side": "us",
+        "killers": [
+          "Green"
+        ],
+        "detected_at": "2026-08-19T14:08:59.109808+00:00"
       }
     ]
   }
