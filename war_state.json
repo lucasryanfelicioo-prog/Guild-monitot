@@ -28,20 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Pocas Trancas",
+        "victim": "Legacy",
         "side": "us",
         "killers": [
           "Will"
         ],
-        "detected_at": "2026-08-19T06:52:57.150527+00:00"
-      },
-      {
-        "victim": "Washed",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-19T06:59:41.969357+00:00"
+        "detected_at": "2026-08-19T07:36:53.927067+00:00"
       }
     ]
   }
