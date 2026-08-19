@@ -85,13 +85,13 @@
   },
   "Bratva": {
     "level": 863,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Deidara",
     "rank": "Bratva"
   },
   "Biit": {
     "level": 792,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Biit"
   },
