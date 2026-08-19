@@ -28,20 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Legacy",
+        "victim": "Yakushi",
         "side": "us",
         "killers": [
           "Will"
         ],
-        "detected_at": "2026-08-19T07:36:53.927067+00:00"
-      },
-      {
-        "victim": "Will",
-        "side": "them",
-        "killers": [
-          "Brabinho"
-        ],
-        "detected_at": "2026-08-19T07:38:51.474214+00:00"
+        "detected_at": "2026-08-19T07:56:50.637700+00:00"
       }
     ]
   }
