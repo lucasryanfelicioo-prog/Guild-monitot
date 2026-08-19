@@ -15,31 +15,34 @@
   "session": {
     "active": true,
     "score": {
-      "us": 3,
+      "us": 8,
       "them": 7
     },
     "stats": {
       "kills": {
         "Pk Oshh": 7,
-        "Paulo War": 3,
-        "Mohamed Sz": 2,
-        "Healing": 2,
+        "Paulo War": 8,
+        "Mohamed Sz": 5,
+        "Healing": 4,
         "Solado": 2,
-        "Gault": 2,
+        "Gault": 6,
         "Top Sword": 3,
         "Will": 5,
-        "Saikopasu": 3
+        "Saikopasu": 3,
+        "Shanks": 5
       },
       "deaths": {
         "Paulo War": 2,
-        "Pk Oshh": 2,
+        "Pk Oshh": 4,
         "Healing": 3,
-        "Saikopasu": 1,
+        "Saikopasu": 2,
         "Solado": 1,
-        "Shanks": 1
+        "Shanks": 1,
+        "Will": 1,
+        "Top Sword": 1
       }
     },
-    "last_kill_detected_at": "2026-08-19T01:22:56.773054+00:00",
+    "last_kill_detected_at": "2026-08-19T01:26:56.104426+00:00",
     "message_id": "1539443095169663117"
   },
   "pending": {

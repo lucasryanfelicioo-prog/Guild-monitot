@@ -1,18 +1,18 @@
 {
   "Will": {
-    "level": 889,
+    "level": 887,
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
   },
   "Pk Oshh": {
-    "level": 873,
+    "level": 871,
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Pk Oshh"
   },
   "Top Sword": {
-    "level": 967,
+    "level": 965,
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Top Sword"
@@ -48,7 +48,7 @@
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
-    "level": 854,
+    "level": 852,
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
@@ -85,7 +85,7 @@
   },
   "Bratva": {
     "level": 863,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Deidara",
     "rank": "Bratva"
   },
