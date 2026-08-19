@@ -34,6 +34,25 @@
           "Legacy"
         ],
         "detected_at": "2026-08-19T19:06:46.288107+00:00"
+      },
+      {
+        "victim": "Will",
+        "side": "them",
+        "killers": [
+          "Pklizo Por Hobby",
+          "Legacy",
+          "Jowe"
+        ],
+        "detected_at": "2026-08-19T19:13:05.835897+00:00"
+      },
+      {
+        "victim": "Top Sword",
+        "side": "them",
+        "killers": [
+          "Pklizo Por Hobby",
+          "Legacy"
+        ],
+        "detected_at": "2026-08-19T19:13:05.835897+00:00"
       }
     ]
   }
