@@ -59,6 +59,15 @@
           "Pklizo Por Hobby"
         ],
         "detected_at": "2026-08-19T02:36:53.541131+00:00"
+      },
+      {
+        "victim": "Will",
+        "side": "them",
+        "killers": [
+          "Pocas Trancas",
+          "Gault"
+        ],
+        "detected_at": "2026-08-19T02:38:54.277098+00:00"
       }
     ]
   }
