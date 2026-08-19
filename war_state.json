@@ -28,20 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Mohamed Sz",
+        "victim": "Pocas Trancas",
         "side": "us",
         "killers": [
           "Will"
         ],
-        "detected_at": "2026-08-19T06:38:58.476837+00:00"
-      },
-      {
-        "victim": "Will",
-        "side": "them",
-        "killers": [
-          "Legacy"
-        ],
-        "detected_at": "2026-08-19T06:38:58.476837+00:00"
+        "detected_at": "2026-08-19T06:52:57.150527+00:00"
       }
     ]
   }
