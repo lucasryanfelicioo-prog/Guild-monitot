@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 900,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
   },
@@ -37,7 +37,7 @@
   },
   "Green": {
     "level": 781,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Nagato",
     "rank": "Green"
   },
@@ -91,7 +91,7 @@
   },
   "Caixao De Areia": {
     "level": 603,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Zetsu",
     "rank": "Caixao De Areia"
   },
