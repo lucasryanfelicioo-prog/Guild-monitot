@@ -16,25 +16,28 @@
     "active": true,
     "score": {
       "us": 4,
-      "them": 5
+      "them": 9
     },
     "stats": {
       "kills": {
-        "Bratva": 5,
+        "Bratva": 9,
         "Play Rica": 3,
         "Mohamed Sz": 2,
         "Healing": 3,
-        "Hitogoroshi": 2
+        "Hitogoroshi": 2,
+        "Veyk": 3,
+        "Pk Oshh": 3
       },
       "deaths": {
-        "Healing": 2,
+        "Healing": 4,
         "Bratva": 1,
-        "Mohamed Sz": 3,
+        "Mohamed Sz": 4,
         "Hitogoroshi": 2,
-        "Pk Oshh": 1
+        "Pk Oshh": 1,
+        "Play Rica": 1
       }
     },
-    "last_kill_detected_at": "2026-08-20T22:55:24.262845+00:00",
+    "last_kill_detected_at": "2026-08-20T22:57:12.685271+00:00",
     "message_id": "1540129623088697556"
   },
   "pending": {
