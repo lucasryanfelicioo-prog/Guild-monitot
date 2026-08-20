@@ -37,7 +37,7 @@
   },
   "Green": {
     "level": 788,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Nagato",
     "rank": "Green"
   },
@@ -78,7 +78,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 642,
+    "level": 643,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
