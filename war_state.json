@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Solado",
+        "victim": "Tawazu",
         "side": "us",
         "killers": [
-          "Hitogoroshi"
+          "Gabiru"
         ],
-        "detected_at": "2026-08-20T12:53:16.537455+00:00"
+        "detected_at": "2026-08-20T13:07:13.351792+00:00"
       }
     ]
   }
