@@ -28,20 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Darkness Arsenis",
-        "side": "them",
-        "killers": [
-          "Pocas Trancas"
-        ],
-        "detected_at": "2026-08-20T14:53:10.452089+00:00"
-      },
-      {
-        "victim": "Solado",
+        "victim": "Pocas Trancas",
         "side": "us",
         "killers": [
-          "Top Sword"
+          "Darkness Arsenis"
         ],
-        "detected_at": "2026-08-20T14:59:15.565430+00:00"
+        "detected_at": "2026-08-20T15:17:08.049090+00:00"
       }
     ]
   }
