@@ -37,7 +37,7 @@
   },
   "Green": {
     "level": 781,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Nagato",
     "rank": "Green"
   },
@@ -91,7 +91,7 @@
   },
   "Caixao De Areia": {
     "level": 603,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Zetsu",
     "rank": "Caixao De Areia"
   },
@@ -151,7 +151,7 @@
   },
   "Mata A Vontade": {
     "level": 819,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Mata A Vontade"
   },
