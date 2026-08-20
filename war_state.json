@@ -34,6 +34,14 @@
           "Brabinho"
         ],
         "detected_at": "2026-08-20T17:47:16.139090+00:00"
+      },
+      {
+        "victim": "Shanks",
+        "side": "us",
+        "killers": [
+          "Darkness Arsenis"
+        ],
+        "detected_at": "2026-08-20T17:57:04.689151+00:00"
       }
     ]
   }
