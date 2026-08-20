@@ -13,26 +13,17 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": true,
+    "active": false,
     "score": {
-      "us": 4,
-      "them": 2
+      "us": 0,
+      "them": 0
     },
     "stats": {
-      "kills": {
-        "Will": 2,
-        "Jowe": 4,
-        "Legacy": 4
-      },
-      "deaths": {
-        "Hiizzo": 1,
-        "Jowe": 1,
-        "Will": 2,
-        "Top Sword": 2
-      }
+      "kills": {},
+      "deaths": {}
     },
     "last_kill_detected_at": "2026-08-20T18:08:11.844729+00:00",
-    "message_id": "1540059895376908399"
+    "message_id": null
   },
   "pending": {
     "events": []
