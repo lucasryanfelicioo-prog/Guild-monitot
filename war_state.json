@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Pocas Trancas",
+        "victim": "Noluka",
         "side": "us",
         "killers": [
-          "Darkness Arsenis"
+          "Gabiru"
         ],
-        "detected_at": "2026-08-20T15:17:08.049090+00:00"
+        "detected_at": "2026-08-20T15:29:17.010281+00:00"
       }
     ]
   }
