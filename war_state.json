@@ -28,44 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Alucardd",
-        "side": "them",
+        "victim": "Shanks",
+        "side": "us",
         "killers": [
-          "Legacy"
+          "Pk Oshh"
         ],
-        "detected_at": "2026-08-20T00:37:08.944601+00:00"
-      },
-      {
-        "victim": "Alucardd",
-        "side": "them",
-        "killers": [
-          "Legacy"
-        ],
-        "detected_at": "2026-08-20T00:37:08.944601+00:00"
-      },
-      {
-        "victim": "Alucardd",
-        "side": "them",
-        "killers": [
-          "Solado"
-        ],
-        "detected_at": "2026-08-20T00:37:08.944601+00:00"
-      },
-      {
-        "victim": "Alucardd",
-        "side": "them",
-        "killers": [
-          "Pocas Trancas"
-        ],
-        "detected_at": "2026-08-20T00:37:08.944601+00:00"
-      },
-      {
-        "victim": "Alucardd",
-        "side": "them",
-        "killers": [
-          "Mohamed Sz"
-        ],
-        "detected_at": "2026-08-20T00:37:08.944601+00:00"
+        "detected_at": "2026-08-20T02:33:13.793059+00:00"
       }
     ]
   }
