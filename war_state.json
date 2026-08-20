@@ -34,6 +34,14 @@
           "Pocas Trancas"
         ],
         "detected_at": "2026-08-20T14:53:10.452089+00:00"
+      },
+      {
+        "victim": "Solado",
+        "side": "us",
+        "killers": [
+          "Top Sword"
+        ],
+        "detected_at": "2026-08-20T14:59:15.565430+00:00"
       }
     ]
   }
