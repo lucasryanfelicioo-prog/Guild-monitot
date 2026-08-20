@@ -36,7 +36,7 @@
     "rank": "Gabiru"
   },
   "Green": {
-    "level": 783,
+    "level": 784,
     "status": "Online",
     "vocation": "Nagato",
     "rank": "Green"
@@ -67,7 +67,7 @@
   },
   "Veyk": {
     "level": 890,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Veyk"
   },
@@ -78,7 +78,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 640,
+    "level": 641,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
@@ -126,7 +126,7 @@
     "rank": "Macz"
   },
   "Ze Da Agua": {
-    "level": 690,
+    "level": 691,
     "status": "Online",
     "vocation": "Zabuza",
     "rank": "Ze Da Agua"
