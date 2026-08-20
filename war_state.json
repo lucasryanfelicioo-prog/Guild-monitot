@@ -26,6 +26,15 @@
     "message_id": null
   },
   "pending": {
-    "events": []
+    "events": [
+      {
+        "victim": "Ze Da Agua",
+        "side": "them",
+        "killers": [
+          "Healing"
+        ],
+        "detected_at": "2026-08-20T20:27:39.840665+00:00"
+      }
+    ]
   }
 }
