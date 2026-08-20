@@ -13,35 +13,17 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": true,
+    "active": false,
     "score": {
-      "us": 7,
-      "them": 6
+      "us": 0,
+      "them": 0
     },
     "stats": {
-      "kills": {
-        "Will": 4,
-        "Top Sword": 2,
-        "Brabinho": 6,
-        "Legacy": 5,
-        "Gabiru": 1,
-        "Play Rica": 3,
-        "Healing": 1,
-        "Darkness Arsenis": 2
-      },
-      "deaths": {
-        "Legacy": 2,
-        "Will": 1,
-        "Killerx": 1,
-        "Top Sword": 2,
-        "Gabiru": 1,
-        "Pocas Trancas": 1,
-        "Darkness Arsenis": 3,
-        "Healing": 2
-      }
+      "kills": {},
+      "deaths": {}
     },
     "last_kill_detected_at": "2026-08-20T19:55:12.488203+00:00",
-    "message_id": "1540081749563019457"
+    "message_id": null
   },
   "pending": {
     "events": []
