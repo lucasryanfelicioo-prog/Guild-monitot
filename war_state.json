@@ -28,12 +28,13 @@
   "pending": {
     "events": [
       {
-        "victim": "Tuff",
-        "side": "us",
+        "victim": "Will",
+        "side": "them",
         "killers": [
-          "Saikopasu"
+          "Brabinho",
+          "Jowe"
         ],
-        "detected_at": "2026-08-20T03:45:13.932662+00:00"
+        "detected_at": "2026-08-20T07:27:07.049492+00:00"
       }
     ]
   }
