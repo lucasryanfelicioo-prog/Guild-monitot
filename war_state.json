@@ -34,6 +34,14 @@
           "Hitogoroshi"
         ],
         "detected_at": "2026-08-20T11:43:13.134034+00:00"
+      },
+      {
+        "victim": "Respingo De Solda",
+        "side": "us",
+        "killers": [
+          "Hitogoroshi"
+        ],
+        "detected_at": "2026-08-20T11:45:11.659538+00:00"
       }
     ]
   }
