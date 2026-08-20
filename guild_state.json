@@ -14,7 +14,7 @@
   "Top Sword": {
     "level": 966,
     "status": "Online",
-    "vocation": "Tobirama",
+    "vocation": "Nagato",
     "rank": "Top Sword"
   },
   "Alucardd": {
@@ -124,6 +124,12 @@
     "status": "Offline",
     "vocation": "Sasuke",
     "rank": "Macz"
+  },
+  "Seitou": {
+    "level": 801,
+    "status": "Online",
+    "vocation": "Zabuza",
+    "rank": "Seitou"
   },
   "Ze Da Agua": {
     "level": 665,
