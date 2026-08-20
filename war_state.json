@@ -16,17 +16,18 @@
     "active": true,
     "score": {
       "us": 5,
-      "them": 4
+      "them": 6
     },
     "stats": {
       "kills": {
-        "Will": 2,
+        "Will": 4,
         "Top Sword": 2,
         "Brabinho": 4,
         "Legacy": 3,
         "Gabiru": 1,
         "Play Rica": 1,
-        "Healing": 1
+        "Healing": 1,
+        "Darkness Arsenis": 2
       },
       "deaths": {
         "Legacy": 2,
@@ -35,10 +36,11 @@
         "Top Sword": 2,
         "Gabiru": 1,
         "Pocas Trancas": 1,
-        "Darkness Arsenis": 1
+        "Darkness Arsenis": 1,
+        "Healing": 2
       }
     },
-    "last_kill_detected_at": "2026-08-20T19:49:00.872162+00:00",
+    "last_kill_detected_at": "2026-08-20T19:53:14.624011+00:00",
     "message_id": "1540081749563019457"
   },
   "pending": {
