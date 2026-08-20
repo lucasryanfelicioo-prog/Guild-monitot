@@ -34,6 +34,15 @@
           "Gabiru"
         ],
         "detected_at": "2026-08-20T13:07:13.351792+00:00"
+      },
+      {
+        "victim": "Respingo De Solda",
+        "side": "us",
+        "killers": [
+          "Gabiru",
+          "Dail Cool"
+        ],
+        "detected_at": "2026-08-20T13:15:15.940461+00:00"
       }
     ]
   }
