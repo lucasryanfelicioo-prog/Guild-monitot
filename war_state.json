@@ -13,36 +13,28 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": false,
+    "active": true,
     "score": {
-      "us": 0,
-      "them": 0
+      "us": 4,
+      "them": 2
     },
     "stats": {
-      "kills": {},
-      "deaths": {}
+      "kills": {
+        "Will": 2,
+        "Jowe": 4,
+        "Legacy": 4
+      },
+      "deaths": {
+        "Hiizzo": 1,
+        "Jowe": 1,
+        "Will": 2,
+        "Top Sword": 2
+      }
     },
-    "last_kill_detected_at": "2026-08-19T20:10:58.442495+00:00",
-    "message_id": null
+    "last_kill_detected_at": "2026-08-20T18:08:11.844729+00:00",
+    "message_id": "1540059895376908399"
   },
   "pending": {
-    "events": [
-      {
-        "victim": "Shanks",
-        "side": "us",
-        "killers": [
-          "Darkness Arsenis"
-        ],
-        "detected_at": "2026-08-20T17:57:04.689151+00:00"
-      },
-      {
-        "victim": "Hiizzo",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-20T18:01:21.322341+00:00"
-      }
-    ]
+    "events": []
   }
 }
