@@ -13,32 +13,17 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": true,
+    "active": false,
     "score": {
-      "us": 4,
-      "them": 10
+      "us": 0,
+      "them": 0
     },
     "stats": {
-      "kills": {
-        "Bratva": 10,
-        "Play Rica": 3,
-        "Mohamed Sz": 2,
-        "Healing": 3,
-        "Hitogoroshi": 2,
-        "Veyk": 4,
-        "Pk Oshh": 4
-      },
-      "deaths": {
-        "Healing": 4,
-        "Bratva": 1,
-        "Mohamed Sz": 4,
-        "Hitogoroshi": 2,
-        "Pk Oshh": 1,
-        "Play Rica": 2
-      }
+      "kills": {},
+      "deaths": {}
     },
     "last_kill_detected_at": "2026-08-20T22:59:09.343644+00:00",
-    "message_id": "1540129623088697556"
+    "message_id": null
   },
   "pending": {
     "events": []
