@@ -28,21 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Will",
-        "side": "them",
+        "victim": "Marea Turbo",
+        "side": "us",
         "killers": [
-          "Brabinho",
-          "Jowe"
+          "Hitogoroshi"
         ],
-        "detected_at": "2026-08-20T07:27:07.049492+00:00"
-      },
-      {
-        "victim": "Bratva",
-        "side": "them",
-        "killers": [
-          "Brabinho"
-        ],
-        "detected_at": "2026-08-20T07:33:11.542599+00:00"
+        "detected_at": "2026-08-20T11:43:13.134034+00:00"
       }
     ]
   }
