@@ -34,6 +34,23 @@
           "Bratva"
         ],
         "detected_at": "2026-08-20T22:33:10.699593+00:00"
+      },
+      {
+        "victim": "Healing",
+        "side": "us",
+        "killers": [
+          "Bratva"
+        ],
+        "detected_at": "2026-08-20T22:41:15.931910+00:00"
+      },
+      {
+        "victim": "Bratva",
+        "side": "them",
+        "killers": [
+          "Play Rica",
+          "Mohamed Sz"
+        ],
+        "detected_at": "2026-08-20T22:41:15.931910+00:00"
       }
     ]
   }
