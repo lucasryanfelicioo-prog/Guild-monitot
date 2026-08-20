@@ -23,6 +23,12 @@
     "vocation": "Madara",
     "rank": "Alucardd"
   },
+  "Kisu": {
+    "level": 728,
+    "status": "Online",
+    "vocation": "Nagato",
+    "rank": "Kisu"
+  },
   "Gabiru": {
     "level": 816,
     "status": "Online",
@@ -72,7 +78,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 602,
+    "level": 603,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
