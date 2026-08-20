@@ -28,22 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Skyrol Four",
+        "victim": "Tuff",
         "side": "us",
         "killers": [
-          "Pk Oshh",
-          "Biit"
+          "Saikopasu"
         ],
-        "detected_at": "2026-08-20T02:59:04.627457+00:00"
-      },
-      {
-        "victim": "Skyrol Six",
-        "side": "us",
-        "killers": [
-          "Biit",
-          "Pk Oshh"
-        ],
-        "detected_at": "2026-08-20T02:59:04.627457+00:00"
+        "detected_at": "2026-08-20T03:45:13.932662+00:00"
       }
     ]
   }
