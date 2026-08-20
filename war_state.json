@@ -28,21 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Healing",
-        "side": "us",
-        "killers": [
-          "Darkness Arsenis"
-        ],
-        "detected_at": "2026-08-20T20:57:02.473882+00:00"
-      },
-      {
-        "victim": "Will",
+        "victim": "Bratva",
         "side": "them",
         "killers": [
-          "Legacy",
-          "Heisein Berg"
+          "Mohamed Sz"
         ],
-        "detected_at": "2026-08-20T20:59:19.475981+00:00"
+        "detected_at": "2026-08-20T22:11:17.073779+00:00"
       }
     ]
   }
