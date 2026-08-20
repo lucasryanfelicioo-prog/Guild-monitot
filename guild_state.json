@@ -37,7 +37,7 @@
   },
   "Green": {
     "level": 781,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Nagato",
     "rank": "Green"
   },
@@ -54,7 +54,7 @@
     "rank": "Scooby"
   },
   "Darkness Arsenis": {
-    "level": 810,
+    "level": 808,
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Darkness Arsenis"
@@ -78,7 +78,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 638,
+    "level": 639,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
