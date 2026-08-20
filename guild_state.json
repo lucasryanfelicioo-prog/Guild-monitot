@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 900,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Itachi",
     "rank": "Will"
   },
@@ -78,7 +78,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 619,
+    "level": 620,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
