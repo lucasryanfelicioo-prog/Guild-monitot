@@ -34,6 +34,14 @@
           "Kisu"
         ],
         "detected_at": "2026-08-21T16:33:22.250722+00:00"
+      },
+      {
+        "victim": "Kisu",
+        "side": "them",
+        "killers": [
+          "Play Rica"
+        ],
+        "detected_at": "2026-08-21T16:43:03.921340+00:00"
       }
     ]
   }
