@@ -28,23 +28,22 @@
   "pending": {
     "events": [
       {
-        "victim": "Kill Men",
+        "victim": "Hiizzo",
         "side": "us",
         "killers": [
-          "Pk Oshh"
+          "Will"
         ],
-        "detected_at": "2026-08-21T02:25:10.701679+00:00"
+        "detected_at": "2026-08-21T03:09:09.939321+00:00"
       },
       {
         "victim": "Pk Oshh",
         "side": "them",
         "killers": [
-          "Yakushi",
-          "Mohamed Sz",
-          "Killerx",
-          "Kill Men"
+          "Hiizzo",
+          "Legacy",
+          "Brabinho"
         ],
-        "detected_at": "2026-08-21T02:27:10.777013+00:00"
+        "detected_at": "2026-08-21T03:09:09.939321+00:00"
       }
     ]
   }
