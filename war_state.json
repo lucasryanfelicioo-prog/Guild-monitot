@@ -28,14 +28,6 @@
   "pending": {
     "events": [
       {
-        "victim": "Yakushi",
-        "side": "us",
-        "killers": [
-          "Biit"
-        ],
-        "detected_at": "2026-08-21T23:31:25.379157+00:00"
-      },
-      {
         "victim": "Healing",
         "side": "us",
         "killers": [
@@ -43,6 +35,14 @@
           "Hitogoroshi"
         ],
         "detected_at": "2026-08-21T23:39:18.103361+00:00"
+      },
+      {
+        "victim": "Yakushi",
+        "side": "us",
+        "killers": [
+          "Biit"
+        ],
+        "detected_at": "2026-08-21T23:43:10.019615+00:00"
       }
     ]
   }
