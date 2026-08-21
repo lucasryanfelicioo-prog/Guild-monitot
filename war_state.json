@@ -28,30 +28,6 @@
   "pending": {
     "events": [
       {
-        "victim": "Green",
-        "side": "them",
-        "killers": [
-          "Legacy"
-        ],
-        "detected_at": "2026-08-21T15:01:29.840426+00:00"
-      },
-      {
-        "victim": "Veyk",
-        "side": "them",
-        "killers": [
-          "Legacy"
-        ],
-        "detected_at": "2026-08-21T15:01:29.840426+00:00"
-      },
-      {
-        "victim": "Hitogoroshi",
-        "side": "them",
-        "killers": [
-          "Legacy"
-        ],
-        "detected_at": "2026-08-21T15:03:13.515364+00:00"
-      },
-      {
         "victim": "Hitogoroshi",
         "side": "them",
         "killers": [
@@ -66,6 +42,14 @@
           "Kisu"
         ],
         "detected_at": "2026-08-21T15:09:09.511681+00:00"
+      },
+      {
+        "victim": "Mohamed Sz",
+        "side": "us",
+        "killers": [
+          "Kisu"
+        ],
+        "detected_at": "2026-08-21T15:13:13.923411+00:00"
       }
     ]
   }
