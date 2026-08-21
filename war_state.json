@@ -28,14 +28,6 @@
   "pending": {
     "events": [
       {
-        "victim": "Apollo Emici",
-        "side": "us",
-        "killers": [
-          "Kisu"
-        ],
-        "detected_at": "2026-08-21T23:17:11.922815+00:00"
-      },
-      {
         "victim": "Kisu",
         "side": "them",
         "killers": [
@@ -51,6 +43,14 @@
           "Yakushi"
         ],
         "detected_at": "2026-08-21T23:26:42.681627+00:00"
+      },
+      {
+        "victim": "Tawazu",
+        "side": "us",
+        "killers": [
+          "Biit"
+        ],
+        "detected_at": "2026-08-21T23:29:13.266002+00:00"
       }
     ]
   }
