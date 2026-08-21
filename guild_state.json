@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 901,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Itachi",
     "rank": "Will"
   },
@@ -13,7 +13,7 @@
   },
   "Top Sword": {
     "level": 965,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Tobirama",
     "rank": "Top Sword"
   },
@@ -37,7 +37,7 @@
   },
   "Green": {
     "level": 801,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Nagato",
     "rank": "Green"
   },
@@ -49,7 +49,7 @@
   },
   "Scooby": {
     "level": 830,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Shisui",
     "rank": "Scooby"
   },
@@ -67,19 +67,19 @@
   },
   "Veyk": {
     "level": 890,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Veyk"
   },
   "Hitogoroshi": {
     "level": 837,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Madara",
     "rank": "Hitogoroshi"
   },
   "Yuta": {
     "level": 649,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Danzou",
     "rank": "Yuta"
   },
@@ -91,19 +91,19 @@
   },
   "Caixao De Areia": {
     "level": 639,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Zetsu",
     "rank": "Caixao De Areia"
   },
   "Bratva": {
     "level": 877,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Deidara",
     "rank": "Bratva"
   },
   "Biit": {
     "level": 793,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Biit"
   },
