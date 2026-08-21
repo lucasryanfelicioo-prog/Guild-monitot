@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 901,
+    "level": 902,
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
@@ -12,7 +12,7 @@
     "rank": "Pk Oshh"
   },
   "Top Sword": {
-    "level": 970,
+    "level": 971,
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Top Sword"
@@ -48,8 +48,8 @@
     "rank": "Dail Cool"
   },
   "Scooby": {
-    "level": 835,
-    "status": "Online",
+    "level": 833,
+    "status": "Offline",
     "vocation": "Shisui",
     "rank": "Scooby"
   },
@@ -90,7 +90,7 @@
     "rank": "Okarun"
   },
   "Caixao De Areia": {
-    "level": 655,
+    "level": 657,
     "status": "Online",
     "vocation": "Zetsu",
     "rank": "Caixao De Areia"
