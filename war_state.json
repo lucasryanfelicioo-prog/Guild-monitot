@@ -28,28 +28,13 @@
   "pending": {
     "events": [
       {
-        "victim": "Pocas Trancas",
-        "side": "us",
+        "victim": "Will",
+        "side": "them",
         "killers": [
-          "Will"
+          "Brabinho",
+          "Legacy"
         ],
-        "detected_at": "2026-08-21T03:23:09.322333+00:00"
-      },
-      {
-        "victim": "Pocas Trancas",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-21T03:27:07.183282+00:00"
-      },
-      {
-        "victim": "Pocas Trancas",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-21T03:27:07.183282+00:00"
+        "detected_at": "2026-08-21T03:45:18.049271+00:00"
       }
     ]
   }
