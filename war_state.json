@@ -26,6 +26,15 @@
     "message_id": null
   },
   "pending": {
-    "events": []
+    "events": [
+      {
+        "victim": "Tawazu",
+        "side": "us",
+        "killers": [
+          "Veyk"
+        ],
+        "detected_at": "2026-08-21T00:25:10.740594+00:00"
+      }
+    ]
   }
 }
