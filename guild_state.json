@@ -61,12 +61,12 @@
   },
   "Saikopasu": {
     "level": 847,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
   "Veyk": {
-    "level": 902,
+    "level": 900,
     "status": "Online",
     "vocation": "Indra",
     "rank": "Veyk"
@@ -103,7 +103,7 @@
   },
   "Biit": {
     "level": 793,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Biit"
   },
