@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 901,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
   },
@@ -90,14 +90,14 @@
     "rank": "Okarun"
   },
   "Caixao De Areia": {
-    "level": 653,
+    "level": 655,
     "status": "Online",
     "vocation": "Zetsu",
     "rank": "Caixao De Areia"
   },
   "Bratva": {
     "level": 877,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Deidara",
     "rank": "Bratva"
   },
