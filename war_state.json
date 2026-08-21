@@ -28,34 +28,13 @@
   "pending": {
     "events": [
       {
-        "victim": "Pk Oshh",
+        "victim": "Yuta",
         "side": "them",
         "killers": [
-          "Mohamed Sz",
-          "Kill Men",
-          "Killerx",
-          "Healing"
-        ],
-        "detected_at": "2026-08-21T01:37:11.507373+00:00"
-      },
-      {
-        "victim": "Hitogoroshi",
-        "side": "them",
-        "killers": [
-          "Killerx",
-          "Kill Men"
-        ],
-        "detected_at": "2026-08-21T01:39:06.485984+00:00"
-      },
-      {
-        "victim": "Green",
-        "side": "them",
-        "killers": [
-          "Killerx",
           "Kill Men",
           "Healing"
         ],
-        "detected_at": "2026-08-21T01:41:14.701573+00:00"
+        "detected_at": "2026-08-21T01:53:12.563308+00:00"
       }
     ]
   }
