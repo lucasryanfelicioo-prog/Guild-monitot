@@ -28,28 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Scooby",
-        "side": "them",
+        "victim": "Knock",
+        "side": "us",
         "killers": [
-          "Apollo Emici"
+          "Kisu"
         ],
-        "detected_at": "2026-08-21T20:51:20.900980+00:00"
-      },
-      {
-        "victim": "Caixao De Areia",
-        "side": "them",
-        "killers": [
-          "Tawazu"
-        ],
-        "detected_at": "2026-08-21T20:59:11.223714+00:00"
-      },
-      {
-        "victim": "Ze Da Agua",
-        "side": "them",
-        "killers": [
-          "Tawazu"
-        ],
-        "detected_at": "2026-08-21T20:59:11.223714+00:00"
+        "detected_at": "2026-08-21T21:43:16.743829+00:00"
       }
     ]
   }
