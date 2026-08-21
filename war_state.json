@@ -28,37 +28,21 @@
   "pending": {
     "events": [
       {
-        "victim": "Kisu",
-        "side": "them",
-        "killers": [
-          "Yakushi"
-        ],
-        "detected_at": "2026-08-21T23:23:11.062808+00:00"
-      },
-      {
-        "victim": "Kisu",
-        "side": "them",
-        "killers": [
-          "Tawazu",
-          "Yakushi"
-        ],
-        "detected_at": "2026-08-21T23:26:42.681627+00:00"
-      },
-      {
-        "victim": "Tawazu",
-        "side": "us",
-        "killers": [
-          "Biit"
-        ],
-        "detected_at": "2026-08-21T23:29:13.266002+00:00"
-      },
-      {
         "victim": "Yakushi",
         "side": "us",
         "killers": [
           "Biit"
         ],
         "detected_at": "2026-08-21T23:31:25.379157+00:00"
+      },
+      {
+        "victim": "Healing",
+        "side": "us",
+        "killers": [
+          "Pk Oshh",
+          "Hitogoroshi"
+        ],
+        "detected_at": "2026-08-21T23:39:18.103361+00:00"
       }
     ]
   }
