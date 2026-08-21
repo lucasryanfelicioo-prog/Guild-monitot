@@ -28,39 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Will",
-        "side": "them",
+        "victim": "Noluka",
+        "side": "us",
         "killers": [
-          "Jowe",
-          "Legacy",
-          "Pocas Trancas"
+          "Kisu"
         ],
-        "detected_at": "2026-08-21T16:05:26.032976+00:00"
-      },
-      {
-        "victim": "Top Sword",
-        "side": "them",
-        "killers": [
-          "Legacy",
-          "Pocas Trancas"
-        ],
-        "detected_at": "2026-08-21T16:05:26.032976+00:00"
-      },
-      {
-        "victim": "Kisu",
-        "side": "them",
-        "killers": [
-          "Healing"
-        ],
-        "detected_at": "2026-08-21T16:05:26.032976+00:00"
-      },
-      {
-        "victim": "Kisu",
-        "side": "them",
-        "killers": [
-          "Mohamed Sz"
-        ],
-        "detected_at": "2026-08-21T16:07:19.370257+00:00"
+        "detected_at": "2026-08-21T16:33:22.250722+00:00"
       }
     ]
   }
