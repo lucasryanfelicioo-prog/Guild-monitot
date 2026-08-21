@@ -37,7 +37,7 @@
   },
   "Green": {
     "level": 801,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Nagato",
     "rank": "Green"
   },
@@ -90,14 +90,14 @@
     "rank": "Okarun"
   },
   "Caixao De Areia": {
-    "level": 635,
+    "level": 636,
     "status": "Online",
     "vocation": "Zetsu",
     "rank": "Caixao De Areia"
   },
   "Bratva": {
     "level": 877,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Deidara",
     "rank": "Bratva"
   },
