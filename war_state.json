@@ -28,15 +28,6 @@
   "pending": {
     "events": [
       {
-        "victim": "Yuta",
-        "side": "them",
-        "killers": [
-          "Kill Men",
-          "Healing"
-        ],
-        "detected_at": "2026-08-21T01:53:12.563308+00:00"
-      },
-      {
         "victim": "Will",
         "side": "them",
         "killers": [
@@ -45,6 +36,17 @@
           "Killerx"
         ],
         "detected_at": "2026-08-21T02:01:24.823070+00:00"
+      },
+      {
+        "victim": "Bratva",
+        "side": "them",
+        "killers": [
+          "Healing",
+          "Kill Men",
+          "Mohamed Sz",
+          "Killerx"
+        ],
+        "detected_at": "2026-08-21T02:09:19.437423+00:00"
       }
     ]
   }
