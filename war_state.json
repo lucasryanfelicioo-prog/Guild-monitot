@@ -28,25 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Will",
-        "side": "them",
+        "victim": "Kill Men",
+        "side": "us",
         "killers": [
-          "Mohamed Sz",
-          "Healing",
-          "Killerx"
+          "Pk Oshh"
         ],
-        "detected_at": "2026-08-21T02:01:24.823070+00:00"
-      },
-      {
-        "victim": "Bratva",
-        "side": "them",
-        "killers": [
-          "Healing",
-          "Kill Men",
-          "Mohamed Sz",
-          "Killerx"
-        ],
-        "detected_at": "2026-08-21T02:09:19.437423+00:00"
+        "detected_at": "2026-08-21T02:25:10.701679+00:00"
       }
     ]
   }
