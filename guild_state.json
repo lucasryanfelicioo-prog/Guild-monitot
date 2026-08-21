@@ -37,7 +37,7 @@
   },
   "Green": {
     "level": 801,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Nagato",
     "rank": "Green"
   },
@@ -66,7 +66,7 @@
     "rank": "Saikopasu"
   },
   "Veyk": {
-    "level": 891,
+    "level": 892,
     "status": "Online",
     "vocation": "Indra",
     "rank": "Veyk"
