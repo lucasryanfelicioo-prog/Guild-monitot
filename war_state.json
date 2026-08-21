@@ -53,6 +53,14 @@
           "Healing"
         ],
         "detected_at": "2026-08-21T16:05:26.032976+00:00"
+      },
+      {
+        "victim": "Kisu",
+        "side": "them",
+        "killers": [
+          "Mohamed Sz"
+        ],
+        "detected_at": "2026-08-21T16:07:19.370257+00:00"
       }
     ]
   }
