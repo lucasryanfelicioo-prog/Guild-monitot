@@ -37,6 +37,15 @@
           "Healing"
         ],
         "detected_at": "2026-08-21T01:37:11.507373+00:00"
+      },
+      {
+        "victim": "Hitogoroshi",
+        "side": "them",
+        "killers": [
+          "Killerx",
+          "Kill Men"
+        ],
+        "detected_at": "2026-08-21T01:39:06.485984+00:00"
       }
     ]
   }
