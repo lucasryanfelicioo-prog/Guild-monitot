@@ -26,6 +26,17 @@
     "message_id": null
   },
   "pending": {
-    "events": []
+    "events": [
+      {
+        "victim": "Pk Oshh",
+        "side": "them",
+        "killers": [
+          "Legacy",
+          "Pocas Trancas",
+          "Paulo War"
+        ],
+        "detected_at": "2026-08-22T03:17:08.316918+00:00"
+      }
+    ]
   }
 }
