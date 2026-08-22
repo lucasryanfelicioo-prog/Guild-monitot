@@ -28,14 +28,6 @@
   "pending": {
     "events": [
       {
-        "victim": "Caixao De Areia",
-        "side": "them",
-        "killers": [
-          "Mohamed Sz"
-        ],
-        "detected_at": "2026-08-22T01:09:11.818008+00:00"
-      },
-      {
         "victim": "Mohamed Sz",
         "side": "us",
         "killers": [
@@ -63,6 +55,26 @@
           "Pdiddy"
         ],
         "detected_at": "2026-08-22T01:17:13.859632+00:00"
+      },
+      {
+        "victim": "Mohamed Sz",
+        "side": "us",
+        "killers": [
+          "Saikopasu",
+          "Will",
+          "Pk Oshh"
+        ],
+        "detected_at": "2026-08-22T01:21:23.689931+00:00"
+      },
+      {
+        "victim": "Healing",
+        "side": "us",
+        "killers": [
+          "Saikopasu",
+          "Pk Oshh",
+          "Will"
+        ],
+        "detected_at": "2026-08-22T01:21:23.689931+00:00"
       }
     ]
   }
