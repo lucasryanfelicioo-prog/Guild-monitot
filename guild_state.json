@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 892,
+    "level": 891,
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
@@ -49,7 +49,7 @@
   },
   "Scooby": {
     "level": 845,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Shisui",
     "rank": "Scooby"
   },
@@ -60,7 +60,7 @@
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
-    "level": 844,
+    "level": 843,
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
@@ -78,7 +78,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 675,
+    "level": 676,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
