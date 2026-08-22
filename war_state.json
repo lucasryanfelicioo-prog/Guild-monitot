@@ -34,6 +34,25 @@
           "Brabinho"
         ],
         "detected_at": "2026-08-22T18:35:09.504487+00:00"
+      },
+      {
+        "victim": "Will",
+        "side": "them",
+        "killers": [
+          "Brabinho",
+          "Legacy"
+        ],
+        "detected_at": "2026-08-22T18:41:23.143299+00:00"
+      },
+      {
+        "victim": "Saikopasu",
+        "side": "them",
+        "killers": [
+          "Legacy",
+          "Jowe",
+          "Brabinho"
+        ],
+        "detected_at": "2026-08-22T18:41:23.143299+00:00"
       }
     ]
   }
