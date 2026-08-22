@@ -36,14 +36,14 @@
     "rank": "Gabiru"
   },
   "Green": {
-    "level": 799,
+    "level": 800,
     "status": "Online",
     "vocation": "Madara",
     "rank": "Green"
   },
   "Dail Cool": {
     "level": 806,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Jiraya",
     "rank": "Dail Cool"
   },
@@ -126,8 +126,8 @@
     "rank": "Macz"
   },
   "Ze Da Agua": {
-    "level": 724,
-    "status": "Online",
+    "level": 725,
+    "status": "Offline",
     "vocation": "Zabuza",
     "rank": "Ze Da Agua"
   },
