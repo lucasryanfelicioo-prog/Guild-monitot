@@ -36,7 +36,7 @@
     "rank": "Gabiru"
   },
   "Green": {
-    "level": 801,
+    "level": 802,
     "status": "Online",
     "vocation": "Madara",
     "rank": "Green"
@@ -79,7 +79,7 @@
   },
   "Yuta": {
     "level": 682,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
   },
@@ -102,7 +102,7 @@
     "rank": "Bratva"
   },
   "Biit": {
-    "level": 825,
+    "level": 826,
     "status": "Online",
     "vocation": "Indra",
     "rank": "Biit"
