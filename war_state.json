@@ -15,15 +15,15 @@
   "session": {
     "active": true,
     "score": {
-      "us": 4,
+      "us": 9,
       "them": 5
     },
     "stats": {
       "kills": {
         "Will": 3,
         "Biit": 2,
-        "Legacy": 4,
-        "Jowe": 3
+        "Legacy": 9,
+        "Jowe": 8
       },
       "deaths": {
         "Pocas Trancas": 1,
@@ -31,11 +31,11 @@
         "Tawazu": 1,
         "Apollo Emici": 1,
         "Pdiddy": 1,
-        "Will": 2,
-        "Saikopasu": 2
+        "Will": 5,
+        "Saikopasu": 4
       }
     },
-    "last_kill_detected_at": "2026-08-22T05:43:09.511793+00:00",
+    "last_kill_detected_at": "2026-08-22T05:45:06.161103+00:00",
     "message_id": "1540596155346460814"
   },
   "pending": {
