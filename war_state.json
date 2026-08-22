@@ -26,6 +26,15 @@
     "message_id": null
   },
   "pending": {
-    "events": []
+    "events": [
+      {
+        "victim": "Biit",
+        "side": "them",
+        "killers": [
+          "Pdiddy"
+        ],
+        "detected_at": "2026-08-22T19:53:13.663586+00:00"
+      }
+    ]
   }
 }
