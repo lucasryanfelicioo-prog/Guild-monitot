@@ -13,52 +13,30 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": false,
+    "active": true,
     "score": {
-      "us": 0,
-      "them": 0
+      "us": 1,
+      "them": 5
     },
     "stats": {
-      "kills": {},
-      "deaths": {}
+      "kills": {
+        "Will": 3,
+        "Biit": 2,
+        "Legacy": 1
+      },
+      "deaths": {
+        "Pocas Trancas": 1,
+        "Kill Men": 1,
+        "Tawazu": 1,
+        "Apollo Emici": 1,
+        "Pdiddy": 1,
+        "Will": 1
+      }
     },
-    "last_kill_detected_at": "2026-08-22T02:01:35.668549+00:00",
-    "message_id": null
+    "last_kill_detected_at": "2026-08-22T05:39:06.195410+00:00",
+    "message_id": "1540596155346460814"
   },
   "pending": {
-    "events": [
-      {
-        "victim": "Pocas Trancas",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-22T05:33:09.010535+00:00"
-      },
-      {
-        "victim": "Kill Men",
-        "side": "us",
-        "killers": [
-          "Biit"
-        ],
-        "detected_at": "2026-08-22T05:34:59.833968+00:00"
-      },
-      {
-        "victim": "Tawazu",
-        "side": "us",
-        "killers": [
-          "Biit"
-        ],
-        "detected_at": "2026-08-22T05:37:10.943619+00:00"
-      },
-      {
-        "victim": "Apollo Emici",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-22T05:37:10.943619+00:00"
-      }
-    ]
+    "events": []
   }
 }
