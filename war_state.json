@@ -31,44 +31,26 @@
         "victim": "Pk Oshh",
         "side": "them",
         "killers": [
-          "Legacy"
+          "Brabinho",
+          "Jowe"
         ],
-        "detected_at": "2026-08-22T16:55:09.437548+00:00"
+        "detected_at": "2026-08-22T18:09:10.271992+00:00"
       },
       {
-        "victim": "Legacy",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-22T16:57:11.604903+00:00"
-      },
-      {
-        "victim": "Seloco",
-        "side": "us",
-        "killers": [
-          "Will",
-          "Top Sword"
-        ],
-        "detected_at": "2026-08-22T16:57:11.604903+00:00"
-      },
-      {
-        "victim": "Top Sword",
+        "victim": "Scooby",
         "side": "them",
         "killers": [
-          "Legacy",
-          "Tawazu"
+          "Brabinho"
         ],
-        "detected_at": "2026-08-22T16:57:11.604903+00:00"
+        "detected_at": "2026-08-22T18:09:10.271992+00:00"
       },
       {
-        "victim": "Will",
+        "victim": "Yuta",
         "side": "them",
         "killers": [
-          "Legacy",
-          "Seloco"
+          "Brabinho"
         ],
-        "detected_at": "2026-08-22T16:59:07.586534+00:00"
+        "detected_at": "2026-08-22T18:09:10.271992+00:00"
       }
     ]
   }
