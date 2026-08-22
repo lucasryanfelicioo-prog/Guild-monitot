@@ -37,7 +37,7 @@
   },
   "Green": {
     "level": 802,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Madara",
     "rank": "Green"
   },
@@ -103,7 +103,7 @@
   },
   "Biit": {
     "level": 827,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Biit"
   },
