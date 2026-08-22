@@ -28,20 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Caixao De Areia",
-        "side": "them",
+        "victim": "Apollo Emici",
+        "side": "us",
         "killers": [
-          "Tawazu"
+          "Yuta"
         ],
-        "detected_at": "2026-08-22T09:35:11.939516+00:00"
-      },
-      {
-        "victim": "Green",
-        "side": "them",
-        "killers": [
-          "Healing"
-        ],
-        "detected_at": "2026-08-22T09:45:10.808744+00:00"
+        "detected_at": "2026-08-22T12:21:27.338317+00:00"
       }
     ]
   }
