@@ -13,7 +13,7 @@
   },
   "Top Sword": {
     "level": 979,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Tobirama",
     "rank": "Top Sword"
   },
@@ -102,7 +102,7 @@
     "rank": "Bratva"
   },
   "Biit": {
-    "level": 808,
+    "level": 809,
     "status": "Online",
     "vocation": "Indra",
     "rank": "Biit"
