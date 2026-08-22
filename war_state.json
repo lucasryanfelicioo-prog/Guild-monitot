@@ -26,6 +26,16 @@
     "message_id": null
   },
   "pending": {
-    "events": []
+    "events": [
+      {
+        "victim": "Saikopasu",
+        "side": "them",
+        "killers": [
+          "Hiizzo",
+          "Jowe"
+        ],
+        "detected_at": "2026-08-22T07:19:08.012607+00:00"
+      }
+    ]
   }
 }
