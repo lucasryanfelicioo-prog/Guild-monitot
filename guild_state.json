@@ -49,7 +49,7 @@
   },
   "Scooby": {
     "level": 852,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Shisui",
     "rank": "Scooby"
   },
@@ -79,7 +79,7 @@
   },
   "Yuta": {
     "level": 695,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
   },
