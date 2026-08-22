@@ -15,29 +15,34 @@
   "session": {
     "active": true,
     "score": {
-      "us": 26,
+      "us": 36,
       "them": 5
     },
     "stats": {
       "kills": {
-        "Brabinho": 24,
-        "Legacy": 18,
-        "Jowe": 20,
+        "Brabinho": 31,
+        "Legacy": 24,
+        "Jowe": 24,
         "Veyk": 5,
         "Will": 4,
-        "Saikopasu": 4
+        "Saikopasu": 4,
+        "Killerx": 1,
+        "Healing": 1,
+        "Kill Men": 1,
+        "Apollo Emici": 1
       },
       "deaths": {
         "Yuta": 8,
-        "Will": 8,
-        "Saikopasu": 6,
+        "Will": 9,
+        "Saikopasu": 7,
         "Legacy": 3,
-        "Veyk": 2,
+        "Veyk": 3,
         "Jowe": 2,
-        "Scooby": 2
+        "Scooby": 3,
+        "Seitou": 6
       }
     },
-    "last_kill_detected_at": "2026-08-22T18:57:06.967093+00:00",
+    "last_kill_detected_at": "2026-08-22T18:59:10.026750+00:00",
     "message_id": "1540793460968398931"
   },
   "pending": {

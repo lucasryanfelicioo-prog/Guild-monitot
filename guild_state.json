@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 895,
+    "level": 893,
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
@@ -48,7 +48,7 @@
     "rank": "Dail Cool"
   },
   "Scooby": {
-    "level": 851,
+    "level": 850,
     "status": "Online",
     "vocation": "Shisui",
     "rank": "Scooby"
@@ -124,6 +124,12 @@
     "status": "Offline",
     "vocation": "Sasuke",
     "rank": "Macz"
+  },
+  "Seitou": {
+    "level": 840,
+    "status": "Online",
+    "vocation": "Indra",
+    "rank": "Seitou"
   },
   "Ze Da Agua": {
     "level": 738,
