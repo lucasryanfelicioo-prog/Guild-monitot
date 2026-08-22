@@ -13,45 +13,17 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": true,
+    "active": false,
     "score": {
-      "us": 52,
-      "them": 11
+      "us": 0,
+      "them": 0
     },
     "stats": {
-      "kills": {
-        "Brabinho": 42,
-        "Legacy": 33,
-        "Jowe": 36,
-        "Veyk": 6,
-        "Will": 4,
-        "Saikopasu": 5,
-        "Killerx": 1,
-        "Healing": 1,
-        "Kill Men": 1,
-        "Apollo Emici": 1,
-        "Hiizzo": 11,
-        "Seitou": 3,
-        "Scooby": 2
-      },
-      "deaths": {
-        "Yuta": 8,
-        "Will": 10,
-        "Saikopasu": 11,
-        "Legacy": 4,
-        "Veyk": 5,
-        "Jowe": 2,
-        "Scooby": 8,
-        "Seitou": 10,
-        "Hiizzo": 1,
-        "Knock": 1,
-        "Noluka": 1,
-        "Pocas Trancas": 1,
-        "Seloco": 1
-      }
+      "kills": {},
+      "deaths": {}
     },
     "last_kill_detected_at": "2026-08-22T19:29:09.152667+00:00",
-    "message_id": "1540793460968398931"
+    "message_id": null
   },
   "pending": {
     "events": []
