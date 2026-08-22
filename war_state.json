@@ -28,13 +28,13 @@
   "pending": {
     "events": [
       {
-        "victim": "Saikopasu",
-        "side": "them",
+        "victim": "Hiizzo",
+        "side": "us",
         "killers": [
-          "Hiizzo",
-          "Pklizo Por Hobby"
+          "Will",
+          "Saikopasu"
         ],
-        "detected_at": "2026-08-22T04:03:15.756516+00:00"
+        "detected_at": "2026-08-22T04:56:07.738109+00:00"
       }
     ]
   }
