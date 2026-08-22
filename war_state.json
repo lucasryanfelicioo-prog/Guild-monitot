@@ -16,7 +16,7 @@
     "active": true,
     "score": {
       "us": 52,
-      "them": 9
+      "them": 10
     },
     "stats": {
       "kills": {
@@ -32,7 +32,7 @@
         "Apollo Emici": 1,
         "Hiizzo": 11,
         "Seitou": 2,
-        "Scooby": 1
+        "Scooby": 2
       },
       "deaths": {
         "Yuta": 8,
@@ -45,10 +45,11 @@
         "Seitou": 10,
         "Hiizzo": 1,
         "Knock": 1,
-        "Noluka": 1
+        "Noluka": 1,
+        "Pocas Trancas": 1
       }
     },
-    "last_kill_detected_at": "2026-08-22T19:17:12.596622+00:00",
+    "last_kill_detected_at": "2026-08-22T19:23:08.047183+00:00",
     "message_id": "1540793460968398931"
   },
   "pending": {
