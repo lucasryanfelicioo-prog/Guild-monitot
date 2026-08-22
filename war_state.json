@@ -13,39 +13,17 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": true,
+    "active": false,
     "score": {
-      "us": 7,
-      "them": 15
+      "us": 0,
+      "them": 0
     },
     "stats": {
-      "kills": {
-        "Mohamed Sz": 2,
-        "Kill Men": 4,
-        "Healing": 2,
-        "Pdiddy": 1,
-        "Saikopasu": 13,
-        "Will": 13,
-        "Pk Oshh": 12,
-        "Legacy": 2,
-        "Jowe": 4,
-        "Pklizo Por Hobby": 3
-      },
-      "deaths": {
-        "Saikopasu": 3,
-        "Mohamed Sz": 3,
-        "Healing": 3,
-        "Pdiddy": 2,
-        "Kill Men": 4,
-        "Lula": 1,
-        "Pk Oshh": 2,
-        "Hitogoroshi": 1,
-        "Legacy": 2,
-        "Will": 1
-      }
+      "kills": {},
+      "deaths": {}
     },
     "last_kill_detected_at": "2026-08-22T02:01:35.668549+00:00",
-    "message_id": "1540531758834122763"
+    "message_id": null
   },
   "pending": {
     "events": []
