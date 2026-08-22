@@ -42,6 +42,22 @@
           "Biit"
         ],
         "detected_at": "2026-08-22T05:34:59.833968+00:00"
+      },
+      {
+        "victim": "Tawazu",
+        "side": "us",
+        "killers": [
+          "Biit"
+        ],
+        "detected_at": "2026-08-22T05:37:10.943619+00:00"
+      },
+      {
+        "victim": "Apollo Emici",
+        "side": "us",
+        "killers": [
+          "Will"
+        ],
+        "detected_at": "2026-08-22T05:37:10.943619+00:00"
       }
     ]
   }
