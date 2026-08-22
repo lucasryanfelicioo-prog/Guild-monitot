@@ -28,34 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Hiizzo",
+        "victim": "Pocas Trancas",
         "side": "us",
         "killers": [
-          "Will",
-          "Saikopasu"
+          "Will"
         ],
-        "detected_at": "2026-08-22T04:56:07.738109+00:00"
-      },
-      {
-        "victim": "Will",
-        "side": "them",
-        "killers": [
-          "Jowe",
-          "Legacy",
-          "Pklizo Por Hobby"
-        ],
-        "detected_at": "2026-08-22T04:59:08.542575+00:00"
-      },
-      {
-        "victim": "Saikopasu",
-        "side": "them",
-        "killers": [
-          "Legacy",
-          "Hiizzo",
-          "Pklizo Por Hobby",
-          "Jowe"
-        ],
-        "detected_at": "2026-08-22T04:59:08.542575+00:00"
+        "detected_at": "2026-08-22T05:33:09.010535+00:00"
       }
     ]
   }
