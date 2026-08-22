@@ -34,6 +34,15 @@
           "Will"
         ],
         "detected_at": "2026-08-22T22:15:15.268325+00:00"
+      },
+      {
+        "victim": "Bratva",
+        "side": "them",
+        "killers": [
+          "Hiizzo",
+          "Doons"
+        ],
+        "detected_at": "2026-08-22T22:19:13.196363+00:00"
       }
     ]
   }
