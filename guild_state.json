@@ -37,7 +37,7 @@
   },
   "Green": {
     "level": 791,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Madara",
     "rank": "Green"
   },
@@ -90,7 +90,7 @@
     "rank": "Okarun"
   },
   "Caixao De Areia": {
-    "level": 663,
+    "level": 664,
     "status": "Online",
     "vocation": "Zetsu",
     "rank": "Caixao De Areia"
