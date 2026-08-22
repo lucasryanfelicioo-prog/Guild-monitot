@@ -15,14 +15,14 @@
   "session": {
     "active": true,
     "score": {
-      "us": 36,
+      "us": 37,
       "them": 5
     },
     "stats": {
       "kills": {
-        "Brabinho": 31,
+        "Brabinho": 32,
         "Legacy": 24,
-        "Jowe": 24,
+        "Jowe": 25,
         "Veyk": 5,
         "Will": 4,
         "Saikopasu": 4,
@@ -38,11 +38,11 @@
         "Legacy": 3,
         "Veyk": 3,
         "Jowe": 2,
-        "Scooby": 3,
+        "Scooby": 4,
         "Seitou": 6
       }
     },
-    "last_kill_detected_at": "2026-08-22T18:59:10.026750+00:00",
+    "last_kill_detected_at": "2026-08-22T19:01:27.253112+00:00",
     "message_id": "1540793460968398931"
   },
   "pending": {
