@@ -31,7 +31,7 @@
   },
   "Gabiru": {
     "level": 813,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Nagato",
     "rank": "Gabiru"
   },
@@ -78,7 +78,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 660,
+    "level": 655,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
@@ -102,7 +102,7 @@
     "rank": "Bratva"
   },
   "Biit": {
-    "level": 813,
+    "level": 814,
     "status": "Online",
     "vocation": "Indra",
     "rank": "Biit"
