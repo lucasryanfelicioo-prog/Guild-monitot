@@ -16,7 +16,7 @@
     "active": true,
     "score": {
       "us": 2,
-      "them": 7
+      "them": 8
     },
     "stats": {
       "kills": {
@@ -24,8 +24,8 @@
         "Kill Men": 2,
         "Healing": 2,
         "Pdiddy": 1,
-        "Saikopasu": 7,
-        "Will": 6,
+        "Saikopasu": 8,
+        "Will": 7,
         "Pk Oshh": 6
       },
       "deaths": {
@@ -33,10 +33,10 @@
         "Mohamed Sz": 2,
         "Healing": 2,
         "Pdiddy": 1,
-        "Kill Men": 2
+        "Kill Men": 3
       }
     },
-    "last_kill_detected_at": "2026-08-22T01:23:12.831159+00:00",
+    "last_kill_detected_at": "2026-08-22T01:25:08.545816+00:00",
     "message_id": "1540531758834122763"
   },
   "pending": {
