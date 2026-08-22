@@ -28,29 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Will",
-        "side": "them",
-        "killers": [
-          "Play Rica",
-          "Apollo Emici"
-        ],
-        "detected_at": "2026-08-22T21:15:07.983899+00:00"
-      },
-      {
-        "victim": "Apollo Emici",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-22T21:19:17.811991+00:00"
-      },
-      {
         "victim": "Washed",
         "side": "us",
         "killers": [
           "Will"
         ],
-        "detected_at": "2026-08-22T21:24:13.968242+00:00"
+        "detected_at": "2026-08-22T22:15:15.268325+00:00"
       }
     ]
   }
