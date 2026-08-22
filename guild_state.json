@@ -13,7 +13,7 @@
   },
   "Top Sword": {
     "level": 979,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Tobirama",
     "rank": "Top Sword"
   },
@@ -78,7 +78,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 658,
+    "level": 659,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
