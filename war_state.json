@@ -16,7 +16,7 @@
     "active": true,
     "score": {
       "us": 4,
-      "them": 13
+      "them": 14
     },
     "stats": {
       "kills": {
@@ -25,8 +25,8 @@
         "Healing": 2,
         "Pdiddy": 1,
         "Saikopasu": 12,
-        "Will": 11,
-        "Pk Oshh": 11,
+        "Will": 12,
+        "Pk Oshh": 12,
         "Legacy": 1,
         "Jowe": 1
       },
@@ -38,10 +38,11 @@
         "Kill Men": 4,
         "Lula": 1,
         "Pk Oshh": 1,
-        "Hitogoroshi": 1
+        "Hitogoroshi": 1,
+        "Legacy": 1
       }
     },
-    "last_kill_detected_at": "2026-08-22T01:45:09.477153+00:00",
+    "last_kill_detected_at": "2026-08-22T01:59:45.118468+00:00",
     "message_id": "1540531758834122763"
   },
   "pending": {
