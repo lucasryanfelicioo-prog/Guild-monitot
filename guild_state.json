@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 906,
+    "level": 905,
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
@@ -78,7 +78,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 669,
+    "level": 670,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
@@ -97,7 +97,7 @@
   },
   "Bratva": {
     "level": 877,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Deidara",
     "rank": "Bratva"
   },
