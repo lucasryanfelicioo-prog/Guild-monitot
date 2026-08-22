@@ -36,6 +36,14 @@
           "Paulo War"
         ],
         "detected_at": "2026-08-22T03:17:08.316918+00:00"
+      },
+      {
+        "victim": "Green",
+        "side": "them",
+        "killers": [
+          "Paulo War"
+        ],
+        "detected_at": "2026-08-22T03:25:15.191924+00:00"
       }
     ]
   }
