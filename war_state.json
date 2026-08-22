@@ -16,7 +16,7 @@
     "active": true,
     "score": {
       "us": 52,
-      "them": 10
+      "them": 11
     },
     "stats": {
       "kills": {
@@ -31,7 +31,7 @@
         "Kill Men": 1,
         "Apollo Emici": 1,
         "Hiizzo": 11,
-        "Seitou": 2,
+        "Seitou": 3,
         "Scooby": 2
       },
       "deaths": {
@@ -46,10 +46,11 @@
         "Hiizzo": 1,
         "Knock": 1,
         "Noluka": 1,
-        "Pocas Trancas": 1
+        "Pocas Trancas": 1,
+        "Seloco": 1
       }
     },
-    "last_kill_detected_at": "2026-08-22T19:23:08.047183+00:00",
+    "last_kill_detected_at": "2026-08-22T19:29:09.152667+00:00",
     "message_id": "1540793460968398931"
   },
   "pending": {
