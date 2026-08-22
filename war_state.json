@@ -28,13 +28,13 @@
   "pending": {
     "events": [
       {
-        "victim": "Lula",
-        "side": "us",
+        "victim": "Will",
+        "side": "them",
         "killers": [
-          "Seitou",
-          "Biit"
+          "Play Rica",
+          "Apollo Emici"
         ],
-        "detected_at": "2026-08-22T20:43:08.263694+00:00"
+        "detected_at": "2026-08-22T21:15:07.983899+00:00"
       }
     ]
   }
