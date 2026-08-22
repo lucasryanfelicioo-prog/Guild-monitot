@@ -254,6 +254,7 @@
     "Aug 07 2026, 20:22 CEST|Died at level 1 by Barbarian Viking."
   ],
   "Legacy": [
+    "Aug 22 2026, 15:44 CEST|Killed at level 899 by Indra Clone summoned by Veyk and by Will .",
     "Aug 22 2026, 13:55 CEST|Killed at level 898 by Will , by a Tsukuyomi and by Nanabi Wild.",
     "Aug 22 2026, 02:40 CEST|Died at level 900 by Nanabi Wild and by a Tsukuyomi.",
     "Aug 21 2026, 22:59 CEST|Died at level 901 by a Tsukuyomi, by Will , by Saikopasu , by Jowe , by Blemished and by Beesz.",
@@ -262,8 +263,7 @@
     "Aug 20 2026, 16:23 CEST|Killed at level 905 by Will and by Dark Snake.",
     "Aug 19 2026, 04:36 CEST|Killed at level 907 by Will and by a Tsukuyomi.",
     "Aug 19 2026, 02:49 CEST|Killed at level 908 by Will , by Haku and by a Tsukuyomi.",
-    "Aug 18 2026, 10:31 CEST|Killed at level 887 by Top Sword .",
-    "Aug 16 2026, 23:18 CEST|Killed at level 887 by Pk Oshh , by Scooby , by Top Sword and by Saikopasu ."
+    "Aug 18 2026, 10:31 CEST|Killed at level 887 by Top Sword ."
   ],
   "Snow": [
     "Aug 17 2026, 00:23 CEST|Killed at level 785 by Pk Oshh and by Elite Berserker Vikings.",
@@ -341,6 +341,8 @@
     "Aug 20 2026, 21:24 CEST|Killed at level 720 by Veyk ."
   ],
   "Will": [
+    "Aug 22 2026, 15:44 CEST|Killed at level 902 by Brabinho , by Jowe and by Nanabi Wild.",
+    "Aug 22 2026, 15:43 CEST|Killed at level 903 by Legacy , by Jowe , by Brabinho , by Hachibi Wild and by Nanabi Wild.",
     "Aug 22 2026, 15:41 CEST|Died at level 904 by Hachibi Wild, by Legacy , by Jowe , by Brabinho and by Nanabi Wild.",
     "Aug 22 2026, 15:40 CEST|Killed at level 905 by Brabinho , by Legacy , by Nanabi Wild and by Hachibi Wild.",
     "Aug 22 2026, 13:58 CEST|Killed at level 906 by Legacy , by Seloco , by a Tsukuyomi, by Hachibi Wild and by Nanabi Wild.",
@@ -348,9 +350,7 @@
     "Aug 22 2026, 02:43 CEST|Killed at level 900 by Jowe , by Legacy and by Nanabi Wild.",
     "Aug 22 2026, 02:42 CEST|Killed at level 901 by Legacy , by Jowe , by Nanabi Wild and by a Tsukuyomi.",
     "Aug 22 2026, 02:40 CEST|Killed at level 902 by Jowe , by Legacy , by Nanabi Wild and by a Tsukuyomi.",
-    "Aug 22 2026, 02:37 CEST|Killed at level 904 by Legacy and by Hachibi Wild.",
-    "Aug 22 2026, 01:56 CEST|Killed at level 906 by Jowe , by Legacy , by Pklizo Por Hobby , by Goblinz and by Grinch.",
-    "Aug 21 2026, 23:00 CEST|Killed at level 905 by Pklizo Por Hobby , by Jowe , by Blemished and by Beesz."
+    "Aug 22 2026, 02:37 CEST|Killed at level 904 by Legacy and by Hachibi Wild."
   ],
   "Pk Oshh": [
     "Aug 22 2026, 15:06 CEST|Killed at level 899 by Brabinho and by Jowe .",
@@ -449,6 +449,7 @@
     "Aug 14 2026, 19:42 CEST|Killed at level 811 by Pklizo Por Hobby and by Hachibi Wild."
   ],
   "Saikopasu": [
+    "Aug 22 2026, 15:44 CEST|Killed at level 852 by Legacy , by Brabinho and by Jowe .",
     "Aug 22 2026, 15:42 CEST|Died at level 853 by Hachibi Wild, by Brabinho , by Jowe and by Nanabi Wild.",
     "Aug 22 2026, 15:41 CEST|Died at level 854 by Hachibi Wild, by Legacy , by Brabinho , by Jowe and by Nanabi Wild.",
     "Aug 22 2026, 15:40 CEST|Killed at level 855 by Legacy , by Jowe , by Brabinho , by Nanabi Wild and by a Tsukuyomi.",
@@ -457,10 +458,11 @@
     "Aug 22 2026, 02:44 CEST|Killed at level 846 by Jowe and by Legacy .",
     "Aug 22 2026, 02:43 CEST|Killed at level 847 by Legacy , by Jowe , by Nanabi Wild and by Hachibi Wild.",
     "Aug 22 2026, 02:41 CEST|Died at level 848 by Nanabi Wild, by Legacy , by Jowe , by Hachibi Wild and by a Tsukuyomi.",
-    "Aug 22 2026, 02:39 CEST|Killed at level 849 by Legacy and by Jowe .",
-    "Aug 22 2026, 01:56 CEST|Killed at level 851 by Legacy , by Hiizzo , by Pklizo Por Hobby , by Jowe , by Goblinz, by Orc Zerk and by Grinch."
+    "Aug 22 2026, 02:39 CEST|Killed at level 849 by Legacy and by Jowe ."
   ],
   "Veyk": [
+    "Aug 22 2026, 15:44 CEST|Killed at level 903 by Brabinho , by Jowe , by Hachibi Wild and by Nanabi Wild.",
+    "Aug 22 2026, 15:42 CEST|Killed at level 904 by Brabinho , by Jowe , by Legacy , by Hachibi Wild and by Nanabi Wild.",
     "Aug 21 2026, 12:00 CEST|Killed at level 902 by Legacy and by Nanabi Wild.",
     "Aug 20 2026, 16:20 CEST|Died at level 890 by Shadow Madara and by Play Rica .",
     "Aug 19 2026, 16:33 CEST|Killed at level 873 by Legacy and by Nanabi Wild.",
@@ -468,9 +470,7 @@
     "Aug 18 2026, 22:34 CEST|Died at level 836 by Deathstriker.",
     "Aug 18 2026, 13:13 CEST|Killed at level 832 by Lins and by Nanabi Wild.",
     "Aug 18 2026, 12:24 CEST|Died at level 831 by Nanabi Wild.",
-    "Aug 17 2026, 23:47 CEST|Killed at level 819 by Lins .",
-    "Aug 17 2026, 23:20 CEST|Killed at level 819 by Gault and by Nanabi Wild.",
-    "Aug 17 2026, 15:15 CEST|Killed at level 819 by Legacy ."
+    "Aug 17 2026, 23:47 CEST|Killed at level 819 by Lins ."
   ],
   "Hitogoroshi": [
     "Aug 22 2026, 09:30 CEST|Killed at level 853 by Apollo Emici and by Nanabi Wild.",
@@ -485,16 +485,16 @@
     "Aug 20 2026, 19:41 CEST|Died at level 837 by Nanabi Wild, by Play Rica , by Healing and by Hachibi Wild."
   ],
   "Yuta": [
+    "Aug 22 2026, 15:44 CEST|Killed at level 682 by Jowe , by Brabinho and by Nanabi Wild.",
+    "Aug 22 2026, 15:44 CEST|Killed at level 686 by Jowe , by Brabinho , by Legacy , by Nanabi Wild and by Hachibi Wild.",
+    "Aug 22 2026, 15:43 CEST|Killed at level 689 by Legacy , by Brabinho , by Nanabi Wild and by Hachibi Wild.",
     "Aug 22 2026, 15:42 CEST|Killed at level 693 by Jowe , by Brabinho , by Hachibi Wild and by Nanabi Wild.",
     "Aug 22 2026, 15:41 CEST|Killed at level 694 by Brabinho , by Jowe , by Legacy , by Hachibi Wild and by Nanabi Wild.",
     "Aug 22 2026, 15:34 CEST|Killed at level 695 by Brabinho .",
     "Aug 22 2026, 15:07 CEST|Killed at level 697 by Brabinho and by Hachibi Wild.",
     "Aug 22 2026, 13:19 CEST|Died at level 672 by Nanabi Wild.",
     "Aug 22 2026, 10:25 CEST|Died at level 660 by Nanabi Wild.",
-    "Aug 22 2026, 10:23 CEST|Died at level 662 by Nanabi Wild.",
-    "Aug 22 2026, 09:31 CEST|Killed at level 658 by Apollo Emici , by Nanabi Wild and by Hachibi Wild.",
-    "Aug 22 2026, 09:24 CEST|Killed at level 657 by Apollo Emici and by Nanabi Wild.",
-    "Aug 22 2026, 08:57 CEST|Died at level 654 by Jaakuna Tako."
+    "Aug 22 2026, 10:23 CEST|Died at level 662 by Nanabi Wild."
   ],
   "Okarun": [
     "Aug 19 2026, 17:09 CEST|Killed at level 679 by Pocas Trancas and by a Tsukuyomi.",
