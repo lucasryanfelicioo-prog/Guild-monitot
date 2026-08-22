@@ -15,29 +15,29 @@
   "session": {
     "active": true,
     "score": {
-      "us": 24,
-      "them": 3
+      "us": 26,
+      "them": 5
     },
     "stats": {
       "kills": {
-        "Brabinho": 23,
-        "Legacy": 16,
-        "Jowe": 19,
-        "Veyk": 3,
-        "Will": 2,
-        "Saikopasu": 2
+        "Brabinho": 24,
+        "Legacy": 18,
+        "Jowe": 20,
+        "Veyk": 5,
+        "Will": 4,
+        "Saikopasu": 4
       },
       "deaths": {
         "Yuta": 8,
-        "Will": 7,
+        "Will": 8,
         "Saikopasu": 6,
-        "Legacy": 2,
+        "Legacy": 3,
         "Veyk": 2,
-        "Jowe": 1,
-        "Scooby": 1
+        "Jowe": 2,
+        "Scooby": 2
       }
     },
-    "last_kill_detected_at": "2026-08-22T18:55:11.428239+00:00",
+    "last_kill_detected_at": "2026-08-22T18:57:06.967093+00:00",
     "message_id": "1540793460968398931"
   },
   "pending": {
