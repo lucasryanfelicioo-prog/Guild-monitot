@@ -13,30 +13,17 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": true,
+    "active": false,
     "score": {
-      "us": 10,
-      "them": 5
+      "us": 0,
+      "them": 0
     },
     "stats": {
-      "kills": {
-        "Will": 3,
-        "Biit": 2,
-        "Legacy": 10,
-        "Jowe": 9
-      },
-      "deaths": {
-        "Pocas Trancas": 1,
-        "Kill Men": 1,
-        "Tawazu": 1,
-        "Apollo Emici": 1,
-        "Pdiddy": 1,
-        "Will": 5,
-        "Saikopasu": 5
-      }
+      "kills": {},
+      "deaths": {}
     },
     "last_kill_detected_at": "2026-08-22T05:47:13.337432+00:00",
-    "message_id": "1540596155346460814"
+    "message_id": null
   },
   "pending": {
     "events": []
