@@ -28,28 +28,13 @@
   "pending": {
     "events": [
       {
-        "victim": "Kill Men",
+        "victim": "Lula",
         "side": "us",
         "killers": [
-          "Seitou"
+          "Seitou",
+          "Biit"
         ],
-        "detected_at": "2026-08-22T20:17:21.280106+00:00"
-      },
-      {
-        "victim": "Noluka",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-22T20:17:21.280106+00:00"
-      },
-      {
-        "victim": "Noluka",
-        "side": "us",
-        "killers": [
-          "Will"
-        ],
-        "detected_at": "2026-08-22T20:19:20.687321+00:00"
+        "detected_at": "2026-08-22T20:43:08.263694+00:00"
       }
     ]
   }
