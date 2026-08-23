@@ -28,20 +28,28 @@
   "pending": {
     "events": [
       {
-        "victim": "Yakushi",
-        "side": "us",
-        "killers": [
-          "Biit"
-        ],
-        "detected_at": "2026-08-23T04:05:18.666931+00:00"
-      },
-      {
         "victim": "Noluka",
         "side": "us",
         "killers": [
           "Biit"
         ],
         "detected_at": "2026-08-23T04:15:11.260830+00:00"
+      },
+      {
+        "victim": "Pdiddy",
+        "side": "us",
+        "killers": [
+          "Biit"
+        ],
+        "detected_at": "2026-08-23T04:17:17.124582+00:00"
+      },
+      {
+        "victim": "Tawazu",
+        "side": "us",
+        "killers": [
+          "Biit"
+        ],
+        "detected_at": "2026-08-23T04:17:17.124582+00:00"
       }
     ]
   }
