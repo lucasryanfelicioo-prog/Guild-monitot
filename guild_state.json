@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 901,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
   },
@@ -24,7 +24,7 @@
     "rank": "Alucardd"
   },
   "Kisu": {
-    "level": 706,
+    "level": 700,
     "status": "Online",
     "vocation": "Madara",
     "rank": "Kisu"
@@ -61,7 +61,7 @@
   },
   "Saikopasu": {
     "level": 885,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
@@ -103,7 +103,7 @@
   },
   "Biit": {
     "level": 841,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Biit"
   },
