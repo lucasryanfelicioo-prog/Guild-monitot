@@ -28,28 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Gabiru",
+        "victim": "Yuta",
         "side": "them",
         "killers": [
-          "Tawazu"
+          "Doons"
         ],
-        "detected_at": "2026-08-23T21:07:13.020877+00:00"
-      },
-      {
-        "victim": "Saikopasu",
-        "side": "them",
-        "killers": [
-          "Legacy"
-        ],
-        "detected_at": "2026-08-23T21:11:11.035059+00:00"
-      },
-      {
-        "victim": "Yakushi",
-        "side": "us",
-        "killers": [
-          "Top Sword"
-        ],
-        "detected_at": "2026-08-23T21:13:02.632448+00:00"
+        "detected_at": "2026-08-23T21:47:07.973532+00:00"
       }
     ]
   }
