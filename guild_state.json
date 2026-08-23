@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 926,
+    "level": 927,
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
@@ -48,8 +48,8 @@
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
-    "level": 922,
-    "status": "Online",
+    "level": 921,
+    "status": "Offline",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
@@ -66,7 +66,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 720,
+    "level": 721,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
