@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Darkness Arsenis",
-        "side": "them",
+        "victim": "Lula",
+        "side": "us",
         "killers": [
-          "Seloco"
+          "Pk Oshh"
         ],
-        "detected_at": "2026-08-23T16:47:09.240790+00:00"
+        "detected_at": "2026-08-23T17:25:06.481521+00:00"
       }
     ]
   }
