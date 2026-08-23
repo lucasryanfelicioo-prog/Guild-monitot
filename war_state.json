@@ -28,50 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Kill Men",
+        "victim": "Legacy",
         "side": "us",
         "killers": [
           "Saikopasu"
         ],
-        "detected_at": "2026-08-23T00:59:14.645514+00:00"
-      },
-      {
-        "victim": "Pk Oshh",
-        "side": "them",
-        "killers": [
-          "Brabinho",
-          "Kill Men",
-          "Doons"
-        ],
-        "detected_at": "2026-08-23T00:59:14.645514+00:00"
-      },
-      {
-        "victim": "Pk Oshh",
-        "side": "them",
-        "killers": [
-          "Doons",
-          "Brabinho",
-          "Kill Men"
-        ],
-        "detected_at": "2026-08-23T01:01:25.198672+00:00"
-      },
-      {
-        "victim": "Kisu",
-        "side": "them",
-        "killers": [
-          "Brabinho"
-        ],
-        "detected_at": "2026-08-23T01:03:14.049219+00:00"
-      },
-      {
-        "victim": "Saikopasu",
-        "side": "them",
-        "killers": [
-          "Brabinho",
-          "Doons",
-          "Kill Men"
-        ],
-        "detected_at": "2026-08-23T01:03:14.049219+00:00"
+        "detected_at": "2026-08-23T02:07:11.292495+00:00"
       }
     ]
   }
