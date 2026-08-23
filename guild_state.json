@@ -18,14 +18,14 @@
     "rank": "Top Sword"
   },
   "Alucardd": {
-    "level": 693,
-    "status": "Offline",
+    "level": 688,
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Alucardd"
   },
   "Kisu": {
-    "level": 709,
-    "status": "Offline",
+    "level": 704,
+    "status": "Online",
     "vocation": "Madara",
     "rank": "Kisu"
   },
@@ -49,13 +49,13 @@
   },
   "Scooby": {
     "level": 864,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Shisui",
     "rank": "Scooby"
   },
   "Darkness Arsenis": {
     "level": 791,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Itachi",
     "rank": "Darkness Arsenis"
   },
@@ -67,19 +67,19 @@
   },
   "Veyk": {
     "level": 916,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Veyk"
   },
   "Hitogoroshi": {
     "level": 852,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Madara",
     "rank": "Hitogoroshi"
   },
   "Yuta": {
     "level": 695,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
   },
@@ -127,7 +127,7 @@
   },
   "Seitou": {
     "level": 829,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Seitou"
   },
