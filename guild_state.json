@@ -61,7 +61,7 @@
   },
   "Saikopasu": {
     "level": 885,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
@@ -97,13 +97,13 @@
   },
   "Bratva": {
     "level": 877,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Deidara",
     "rank": "Bratva"
   },
   "Biit": {
     "level": 841,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Indra",
     "rank": "Biit"
   },
