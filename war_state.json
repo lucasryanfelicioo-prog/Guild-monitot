@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Seloco",
-        "side": "us",
+        "victim": "Gabiru",
+        "side": "them",
         "killers": [
-          "Yuta"
+          "Tawazu"
         ],
-        "detected_at": "2026-08-23T20:21:11.411650+00:00"
+        "detected_at": "2026-08-23T21:07:13.020877+00:00"
       }
     ]
   }
