@@ -34,6 +34,14 @@
           "Legacy"
         ],
         "detected_at": "2026-08-23T04:29:10.118335+00:00"
+      },
+      {
+        "victim": "Marea Turbo",
+        "side": "us",
+        "killers": [
+          "Kisu"
+        ],
+        "detected_at": "2026-08-23T04:37:15.177760+00:00"
       }
     ]
   }
