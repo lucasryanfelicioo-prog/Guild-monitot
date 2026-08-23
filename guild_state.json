@@ -17,12 +17,6 @@
     "vocation": "Tobirama",
     "rank": "Top Sword"
   },
-  "Alucardd": {
-    "level": 688,
-    "status": "Online",
-    "vocation": "Indra",
-    "rank": "Alucardd"
-  },
   "Kisu": {
     "level": 704,
     "status": "Online",
@@ -97,7 +91,7 @@
   },
   "Bratva": {
     "level": 888,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Deidara",
     "rank": "Bratva"
   },
