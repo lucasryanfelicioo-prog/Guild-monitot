@@ -28,29 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Seitou",
-        "side": "them",
+        "victim": "Kill Men",
+        "side": "us",
         "killers": [
-          "Legacy"
+          "Biit"
         ],
-        "detected_at": "2026-08-23T03:33:13.889324+00:00"
-      },
-      {
-        "victim": "Biit",
-        "side": "them",
-        "killers": [
-          "Brabinho"
-        ],
-        "detected_at": "2026-08-23T03:37:20.339173+00:00"
-      },
-      {
-        "victim": "Will",
-        "side": "them",
-        "killers": [
-          "Brabinho",
-          "Legacy"
-        ],
-        "detected_at": "2026-08-23T03:38:51.146926+00:00"
+        "detected_at": "2026-08-23T03:51:17.338990+00:00"
       }
     ]
   }
