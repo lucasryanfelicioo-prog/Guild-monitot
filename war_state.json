@@ -28,20 +28,20 @@
   "pending": {
     "events": [
       {
-        "victim": "Kill Men",
-        "side": "us",
-        "killers": [
-          "Biit"
-        ],
-        "detected_at": "2026-08-23T03:51:17.338990+00:00"
-      },
-      {
         "victim": "Roadtang",
         "side": "us",
         "killers": [
           "Biit"
         ],
         "detected_at": "2026-08-23T03:55:12.332502+00:00"
+      },
+      {
+        "victim": "Knock",
+        "side": "us",
+        "killers": [
+          "Biit"
+        ],
+        "detected_at": "2026-08-23T04:03:10.373417+00:00"
       }
     ]
   }
