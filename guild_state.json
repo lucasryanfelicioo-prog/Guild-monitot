@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 901,
+    "level": 900,
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
@@ -12,14 +12,14 @@
     "rank": "Pk Oshh"
   },
   "Top Sword": {
-    "level": 989,
+    "level": 988,
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Top Sword"
   },
   "Alucardd": {
     "level": 688,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Alucardd"
   },
@@ -60,7 +60,7 @@
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
-    "level": 883,
+    "level": 882,
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
@@ -78,7 +78,7 @@
     "rank": "Hitogoroshi"
   },
   "Yuta": {
-    "level": 685,
+    "level": 686,
     "status": "Online",
     "vocation": "Danzou",
     "rank": "Yuta"
