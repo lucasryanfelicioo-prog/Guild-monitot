@@ -28,20 +28,20 @@
   "pending": {
     "events": [
       {
-        "victim": "Knock",
-        "side": "us",
-        "killers": [
-          "Biit"
-        ],
-        "detected_at": "2026-08-23T04:03:10.373417+00:00"
-      },
-      {
         "victim": "Yakushi",
         "side": "us",
         "killers": [
           "Biit"
         ],
         "detected_at": "2026-08-23T04:05:18.666931+00:00"
+      },
+      {
+        "victim": "Noluka",
+        "side": "us",
+        "killers": [
+          "Biit"
+        ],
+        "detected_at": "2026-08-23T04:15:11.260830+00:00"
       }
     ]
   }
