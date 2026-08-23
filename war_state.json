@@ -28,20 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Legacy",
-        "side": "us",
-        "killers": [
-          "Saikopasu"
-        ],
-        "detected_at": "2026-08-23T02:07:11.292495+00:00"
-      },
-      {
-        "victim": "Saikopasu",
+        "victim": "Scooby",
         "side": "them",
         "killers": [
           "Brabinho"
         ],
-        "detected_at": "2026-08-23T02:15:11.970608+00:00"
+        "detected_at": "2026-08-23T02:37:09.959588+00:00"
       }
     ]
   }
