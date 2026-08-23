@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Lula",
+        "victim": "Legacy",
         "side": "us",
         "killers": [
           "Pk Oshh"
         ],
-        "detected_at": "2026-08-23T17:25:06.481521+00:00"
+        "detected_at": "2026-08-23T17:47:06.206727+00:00"
       }
     ]
   }
