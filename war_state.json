@@ -28,20 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Kisu",
-        "side": "them",
-        "killers": [
-          "Legacy"
-        ],
-        "detected_at": "2026-08-23T04:29:10.118335+00:00"
-      },
-      {
-        "victim": "Marea Turbo",
+        "victim": "Messi",
         "side": "us",
         "killers": [
-          "Kisu"
+          "Will"
         ],
-        "detected_at": "2026-08-23T04:37:15.177760+00:00"
+        "detected_at": "2026-08-23T05:00:15.690814+00:00"
       }
     ]
   }
