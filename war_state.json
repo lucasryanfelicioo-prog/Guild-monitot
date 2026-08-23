@@ -34,6 +34,24 @@
           "Will"
         ],
         "detected_at": "2026-08-23T05:00:15.690814+00:00"
+      },
+      {
+        "victim": "Top Sword",
+        "side": "them",
+        "killers": [
+          "Legacy",
+          "Brabinho"
+        ],
+        "detected_at": "2026-08-23T05:07:19.731395+00:00"
+      },
+      {
+        "victim": "Scooby",
+        "side": "them",
+        "killers": [
+          "Legacy",
+          "Brabinho"
+        ],
+        "detected_at": "2026-08-23T05:07:19.731395+00:00"
       }
     ]
   }
