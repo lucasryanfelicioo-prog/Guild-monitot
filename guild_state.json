@@ -13,7 +13,7 @@
   },
   "Top Sword": {
     "level": 993,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Tobirama",
     "rank": "Top Sword"
   },
@@ -48,7 +48,7 @@
     "rank": "Dail Cool"
   },
   "Scooby": {
-    "level": 862,
+    "level": 863,
     "status": "Online",
     "vocation": "Shisui",
     "rank": "Scooby"
