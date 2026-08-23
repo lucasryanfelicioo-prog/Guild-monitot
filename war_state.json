@@ -28,36 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Apollo Emici",
+        "victim": "Kill Men",
         "side": "us",
         "killers": [
-          "Gabiru"
+          "Kisu"
         ],
-        "detected_at": "2026-08-23T22:35:13.427960+00:00"
-      },
-      {
-        "victim": "Gabiru",
-        "side": "them",
-        "killers": [
-          "Apollo Emici"
-        ],
-        "detected_at": "2026-08-23T22:37:14.296745+00:00"
-      },
-      {
-        "victim": "Gabiru",
-        "side": "them",
-        "killers": [
-          "Mohamed Sz"
-        ],
-        "detected_at": "2026-08-23T22:39:08.533379+00:00"
-      },
-      {
-        "victim": "Scooby",
-        "side": "them",
-        "killers": [
-          "Doons"
-        ],
-        "detected_at": "2026-08-23T22:39:08.533379+00:00"
+        "detected_at": "2026-08-23T23:25:07.363320+00:00"
       }
     ]
   }
