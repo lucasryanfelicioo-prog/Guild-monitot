@@ -28,36 +28,13 @@
   "pending": {
     "events": [
       {
-        "victim": "Doons",
-        "side": "us",
-        "killers": [
-          "Saikopasu"
-        ],
-        "detected_at": "2026-08-23T23:51:16.421395+00:00"
-      },
-      {
         "victim": "Gault",
         "side": "us",
         "killers": [
+          "Will",
           "Saikopasu"
         ],
-        "detected_at": "2026-08-23T23:51:16.421395+00:00"
-      },
-      {
-        "victim": "Tawazu",
-        "side": "us",
-        "killers": [
-          "Saikopasu"
-        ],
-        "detected_at": "2026-08-23T23:51:16.421395+00:00"
-      },
-      {
-        "victim": "Solado",
-        "side": "us",
-        "killers": [
-          "Saikopasu"
-        ],
-        "detected_at": "2026-08-23T23:53:30.262326+00:00"
+        "detected_at": "2026-08-24T00:35:10.080001+00:00"
       }
     ]
   }
