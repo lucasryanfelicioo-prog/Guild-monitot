@@ -28,20 +28,36 @@
   "pending": {
     "events": [
       {
-        "victim": "Pdiddy",
-        "side": "us",
-        "killers": [
-          "Kisu"
-        ],
-        "detected_at": "2026-08-24T05:39:06.172541+00:00"
-      },
-      {
         "victim": "Kisu",
         "side": "them",
         "killers": [
           "Tawazu"
         ],
         "detected_at": "2026-08-24T05:47:03.990045+00:00"
+      },
+      {
+        "victim": "Jowe",
+        "side": "us",
+        "killers": [
+          "Top Sword"
+        ],
+        "detected_at": "2026-08-24T05:51:08.750356+00:00"
+      },
+      {
+        "victim": "Play Rica",
+        "side": "us",
+        "killers": [
+          "Top Sword"
+        ],
+        "detected_at": "2026-08-24T05:51:08.750356+00:00"
+      },
+      {
+        "victim": "Tawazu",
+        "side": "us",
+        "killers": [
+          "Top Sword"
+        ],
+        "detected_at": "2026-08-24T05:51:08.750356+00:00"
       }
     ]
   }
