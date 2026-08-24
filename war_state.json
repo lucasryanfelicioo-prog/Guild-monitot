@@ -26,6 +26,15 @@
     "message_id": null
   },
   "pending": {
-    "events": []
+    "events": [
+      {
+        "victim": "Caronaprodp",
+        "side": "them",
+        "killers": [
+          "Mohamed Sz"
+        ],
+        "detected_at": "2026-08-24T21:17:12.751783+00:00"
+      }
+    ]
   }
 }
