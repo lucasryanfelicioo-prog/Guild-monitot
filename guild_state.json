@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 928,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Itachi",
     "rank": "Will"
   },
@@ -43,13 +43,13 @@
   },
   "Darkness Arsenis": {
     "level": 811,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Itachi",
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
     "level": 921,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
@@ -90,7 +90,7 @@
     "rank": "Bratva"
   },
   "Biit": {
-    "level": 867,
+    "level": 865,
     "status": "Offline",
     "vocation": "Indra",
     "rank": "Biit"
