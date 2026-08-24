@@ -13,60 +13,29 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": false,
+    "active": true,
     "score": {
-      "us": 0,
-      "them": 0
+      "us": 1,
+      "them": 5
     },
     "stats": {
-      "kills": {},
-      "deaths": {}
+      "kills": {
+        "Tawazu": 1,
+        "Top Sword": 5
+      },
+      "deaths": {
+        "Kisu": 1,
+        "Jowe": 1,
+        "Play Rica": 1,
+        "Tawazu": 1,
+        "Gault": 1,
+        "Legacy": 1
+      }
     },
-    "last_kill_detected_at": "2026-08-23T05:13:14.309552+00:00",
-    "message_id": null
+    "last_kill_detected_at": "2026-08-24T05:55:08.992366+00:00",
+    "message_id": "1541324971262083083"
   },
   "pending": {
-    "events": [
-      {
-        "victim": "Kisu",
-        "side": "them",
-        "killers": [
-          "Tawazu"
-        ],
-        "detected_at": "2026-08-24T05:47:03.990045+00:00"
-      },
-      {
-        "victim": "Jowe",
-        "side": "us",
-        "killers": [
-          "Top Sword"
-        ],
-        "detected_at": "2026-08-24T05:51:08.750356+00:00"
-      },
-      {
-        "victim": "Play Rica",
-        "side": "us",
-        "killers": [
-          "Top Sword"
-        ],
-        "detected_at": "2026-08-24T05:51:08.750356+00:00"
-      },
-      {
-        "victim": "Tawazu",
-        "side": "us",
-        "killers": [
-          "Top Sword"
-        ],
-        "detected_at": "2026-08-24T05:51:08.750356+00:00"
-      },
-      {
-        "victim": "Gault",
-        "side": "us",
-        "killers": [
-          "Top Sword"
-        ],
-        "detected_at": "2026-08-24T05:53:13.415137+00:00"
-      }
-    ]
+    "events": []
   }
 }
