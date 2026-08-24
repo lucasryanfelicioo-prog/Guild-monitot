@@ -43,6 +43,23 @@
           "Will"
         ],
         "detected_at": "2026-08-24T00:39:13.165197+00:00"
+      },
+      {
+        "victim": "Will",
+        "side": "them",
+        "killers": [
+          "Legacy",
+          "Pocas Trancas"
+        ],
+        "detected_at": "2026-08-24T00:41:10.024792+00:00"
+      },
+      {
+        "victim": "Yuta",
+        "side": "them",
+        "killers": [
+          "Doons"
+        ],
+        "detected_at": "2026-08-24T00:41:10.024792+00:00"
       }
     ]
   }
