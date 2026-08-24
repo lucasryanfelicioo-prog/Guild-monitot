@@ -34,6 +34,22 @@
           "Kisu"
         ],
         "detected_at": "2026-08-24T05:29:05.721103+00:00"
+      },
+      {
+        "victim": "Yakushi",
+        "side": "us",
+        "killers": [
+          "Kisu"
+        ],
+        "detected_at": "2026-08-24T05:31:20.219056+00:00"
+      },
+      {
+        "victim": "Seloco",
+        "side": "us",
+        "killers": [
+          "Kisu"
+        ],
+        "detected_at": "2026-08-24T05:31:20.219056+00:00"
       }
     ]
   }
