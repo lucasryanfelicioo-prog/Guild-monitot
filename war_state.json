@@ -58,6 +58,14 @@
           "Top Sword"
         ],
         "detected_at": "2026-08-24T05:51:08.750356+00:00"
+      },
+      {
+        "victim": "Gault",
+        "side": "us",
+        "killers": [
+          "Top Sword"
+        ],
+        "detected_at": "2026-08-24T05:53:13.415137+00:00"
       }
     ]
   }
