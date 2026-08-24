@@ -28,28 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Kisu",
+        "victim": "Darkness Arsenis",
         "side": "them",
         "killers": [
-          "Pdiddy"
+          "Apollo Emici"
         ],
-        "detected_at": "2026-08-24T14:12:01.658182+00:00"
-      },
-      {
-        "victim": "Kisu",
-        "side": "them",
-        "killers": [
-          "Pdiddy"
-        ],
-        "detected_at": "2026-08-24T14:13:02.821557+00:00"
-      },
-      {
-        "victim": "Tawazu",
-        "side": "us",
-        "killers": [
-          "Kisu"
-        ],
-        "detected_at": "2026-08-24T14:19:19.921348+00:00"
+        "detected_at": "2026-08-24T14:59:08.916604+00:00"
       }
     ]
   }
