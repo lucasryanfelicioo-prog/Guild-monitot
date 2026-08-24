@@ -13,36 +13,42 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": false,
+    "active": true,
     "score": {
       "us": 0,
-      "them": 0
+      "them": 19
     },
     "stats": {
-      "kills": {},
-      "deaths": {}
+      "kills": {
+        "Contra Tudo E Todos": 19,
+        "Will": 9,
+        "Darkness Arsenis": 1,
+        "Pk Oshh": 6,
+        "Saikopasu": 3,
+        "Scooby": 1,
+        "Veyk": 1
+      },
+      "deaths": {
+        "Jowe": 2,
+        "Washed": 1,
+        "Pocas Trancas": 1,
+        "Doons": 2,
+        "Gault": 1,
+        "Solado": 1,
+        "Shanks": 1,
+        "Play Rica": 1,
+        "Brabinho": 2,
+        "Paulo War": 2,
+        "Yakushi": 1,
+        "Legacy": 2,
+        "Seloco": 1,
+        "Tawazu": 1
+      }
     },
-    "last_kill_detected_at": "2026-08-24T05:55:08.992366+00:00",
-    "message_id": null
+    "last_kill_detected_at": "2026-08-24T20:19:06.736459+00:00",
+    "message_id": "1541542392828661921"
   },
   "pending": {
-    "events": [
-      {
-        "victim": "Caronaprodp",
-        "side": "them",
-        "killers": [
-          "Yakushi"
-        ],
-        "detected_at": "2026-08-24T19:57:23.236804+00:00"
-      },
-      {
-        "victim": "Caronaprodp",
-        "side": "them",
-        "killers": [
-          "Yakushi"
-        ],
-        "detected_at": "2026-08-24T19:59:13.062719+00:00"
-      }
-    ]
+    "events": []
   }
 }
