@@ -28,20 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Solado",
-        "side": "us",
-        "killers": [
-          "Kisu"
-        ],
-        "detected_at": "2026-08-24T06:55:01.343579+00:00"
-      },
-      {
         "victim": "Kisu",
         "side": "them",
         "killers": [
-          "Gault"
+          "Pdiddy"
         ],
-        "detected_at": "2026-08-24T07:01:16.262739+00:00"
+        "detected_at": "2026-08-24T14:12:01.658182+00:00"
       }
     ]
   }
