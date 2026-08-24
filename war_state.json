@@ -28,44 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Yuta",
+        "victim": "Darkness Arsenis",
         "side": "them",
         "killers": [
-          "Noluka"
+          "Pdiddy"
         ],
-        "detected_at": "2026-08-24T16:01:28.134920+00:00"
-      },
-      {
-        "victim": "Yuta",
-        "side": "them",
-        "killers": [
-          "Noluka"
-        ],
-        "detected_at": "2026-08-24T16:01:28.134920+00:00"
-      },
-      {
-        "victim": "Yuta",
-        "side": "them",
-        "killers": [
-          "Noluka"
-        ],
-        "detected_at": "2026-08-24T16:01:28.134920+00:00"
-      },
-      {
-        "victim": "Yuta",
-        "side": "them",
-        "killers": [
-          "Noluka"
-        ],
-        "detected_at": "2026-08-24T16:01:28.134920+00:00"
-      },
-      {
-        "victim": "Noluka",
-        "side": "us",
-        "killers": [
-          "Kisu"
-        ],
-        "detected_at": "2026-08-24T16:09:22.596007+00:00"
+        "detected_at": "2026-08-24T16:47:07.490349+00:00"
       }
     ]
   }
