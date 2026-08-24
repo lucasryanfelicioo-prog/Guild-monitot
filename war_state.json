@@ -26,6 +26,15 @@
     "message_id": null
   },
   "pending": {
-    "events": []
+    "events": [
+      {
+        "victim": "Washed",
+        "side": "us",
+        "killers": [
+          "Top Sword"
+        ],
+        "detected_at": "2026-08-24T06:41:10.387509+00:00"
+      }
+    ]
   }
 }
