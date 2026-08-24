@@ -28,28 +28,20 @@
   "pending": {
     "events": [
       {
-        "victim": "Yakushi",
-        "side": "us",
-        "killers": [
-          "Kisu"
-        ],
-        "detected_at": "2026-08-24T05:31:20.219056+00:00"
-      },
-      {
-        "victim": "Seloco",
-        "side": "us",
-        "killers": [
-          "Kisu"
-        ],
-        "detected_at": "2026-08-24T05:31:20.219056+00:00"
-      },
-      {
         "victim": "Pdiddy",
         "side": "us",
         "killers": [
           "Kisu"
         ],
         "detected_at": "2026-08-24T05:39:06.172541+00:00"
+      },
+      {
+        "victim": "Kisu",
+        "side": "them",
+        "killers": [
+          "Tawazu"
+        ],
+        "detected_at": "2026-08-24T05:47:03.990045+00:00"
       }
     ]
   }
