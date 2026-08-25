@@ -13,31 +13,29 @@
   "alert_active": false,
   "initial_backfill_done": true,
   "session": {
-    "active": true,
+    "active": false,
     "score": {
-      "us": 2,
-      "them": 6
+      "us": 0,
+      "them": 0
     },
     "stats": {
-      "kills": {
-        "Contra Tudo E Todos": 5,
-        "Tawazu": 2,
-        "Kisu": 1
-      },
-      "deaths": {
-        "Pocas Trancas": 1,
-        "Contra Tudo E Todos": 2,
-        "Tawazu": 1,
-        "Pdiddy": 1,
-        "Gault": 1,
-        "Mohamed Sz": 1,
-        "Seloco": 1
-      }
+      "kills": {},
+      "deaths": {}
     },
     "last_kill_detected_at": "2026-08-25T05:49:01.860713+00:00",
-    "message_id": "1541683314505814119"
+    "message_id": null
   },
   "pending": {
-    "events": []
+    "events": [
+      {
+        "victim": "Contra Tudo E Todos",
+        "side": "them",
+        "killers": [
+          "Gault",
+          "Legacy"
+        ],
+        "detected_at": "2026-08-25T06:09:07.046458+00:00"
+      }
+    ]
   }
 }
