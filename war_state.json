@@ -16,12 +16,13 @@
     "active": true,
     "score": {
       "us": 2,
-      "them": 5
+      "them": 6
     },
     "stats": {
       "kills": {
         "Contra Tudo E Todos": 5,
-        "Tawazu": 2
+        "Tawazu": 2,
+        "Kisu": 1
       },
       "deaths": {
         "Pocas Trancas": 1,
@@ -29,10 +30,11 @@
         "Tawazu": 1,
         "Pdiddy": 1,
         "Gault": 1,
-        "Mohamed Sz": 1
+        "Mohamed Sz": 1,
+        "Seloco": 1
       }
     },
-    "last_kill_detected_at": "2026-08-25T05:41:14.941081+00:00",
+    "last_kill_detected_at": "2026-08-25T05:49:01.860713+00:00",
     "message_id": "1541683314505814119"
   },
   "pending": {
