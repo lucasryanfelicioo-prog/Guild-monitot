@@ -28,12 +28,13 @@
   "pending": {
     "events": [
       {
-        "victim": "Kisu",
+        "victim": "Saikopasu",
         "side": "them",
         "killers": [
-          "Solado"
+          "Allmaight",
+          "Legacy"
         ],
-        "detected_at": "2026-08-25T07:37:00.392310+00:00"
+        "detected_at": "2026-08-25T15:49:08.674805+00:00"
       }
     ]
   }
