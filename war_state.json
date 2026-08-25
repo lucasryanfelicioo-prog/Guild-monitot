@@ -31,19 +31,10 @@
         "victim": "Will",
         "side": "them",
         "killers": [
-          "Jowe",
-          "Allmaight",
-          "Legacy"
-        ],
-        "detected_at": "2026-08-25T03:47:04.904671+00:00"
-      },
-      {
-        "victim": "Kisu",
-        "side": "them",
-        "killers": [
+          "Legacy",
           "Allmaight"
         ],
-        "detected_at": "2026-08-25T03:47:04.904671+00:00"
+        "detected_at": "2026-08-25T04:11:31.556694+00:00"
       }
     ]
   }
