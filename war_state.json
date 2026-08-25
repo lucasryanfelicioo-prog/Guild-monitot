@@ -34,6 +34,23 @@
           "Saikopasu"
         ],
         "detected_at": "2026-08-25T01:29:09.594515+00:00"
+      },
+      {
+        "victim": "Lula",
+        "side": "us",
+        "killers": [
+          "Biit"
+        ],
+        "detected_at": "2026-08-25T01:31:14.706270+00:00"
+      },
+      {
+        "victim": "Veyk",
+        "side": "them",
+        "killers": [
+          "Legacy",
+          "Brabinho"
+        ],
+        "detected_at": "2026-08-25T01:31:14.706270+00:00"
       }
     ]
   }
