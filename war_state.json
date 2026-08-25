@@ -28,45 +28,14 @@
   "pending": {
     "events": [
       {
-        "victim": "Doons",
-        "side": "us",
-        "killers": [
-          "Saikopasu"
-        ],
-        "detected_at": "2026-08-25T01:29:09.594515+00:00"
-      },
-      {
-        "victim": "Lula",
-        "side": "us",
-        "killers": [
-          "Biit"
-        ],
-        "detected_at": "2026-08-25T01:31:14.706270+00:00"
-      },
-      {
-        "victim": "Veyk",
+        "victim": "Will",
         "side": "them",
         "killers": [
-          "Legacy",
-          "Brabinho"
+          "Jowe",
+          "Lula",
+          "Legacy"
         ],
-        "detected_at": "2026-08-25T01:31:14.706270+00:00"
-      },
-      {
-        "victim": "Doons",
-        "side": "us",
-        "killers": [
-          "Saikopasu"
-        ],
-        "detected_at": "2026-08-25T01:33:10.341900+00:00"
-      },
-      {
-        "victim": "Solado",
-        "side": "us",
-        "killers": [
-          "Saikopasu"
-        ],
-        "detected_at": "2026-08-25T01:33:10.341900+00:00"
+        "detected_at": "2026-08-25T02:57:01.168163+00:00"
       }
     ]
   }
