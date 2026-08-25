@@ -35,6 +35,15 @@
           "Allmaight"
         ],
         "detected_at": "2026-08-25T04:11:31.556694+00:00"
+      },
+      {
+        "victim": "Saikopasu",
+        "side": "them",
+        "killers": [
+          "Allmaight",
+          "Legacy"
+        ],
+        "detected_at": "2026-08-25T04:17:09.332238+00:00"
       }
     ]
   }
