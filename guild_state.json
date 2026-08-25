@@ -79,7 +79,7 @@
   },
   "Bratva": {
     "level": 901,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Deidara",
     "rank": "Bratva"
   },
@@ -133,7 +133,7 @@
   },
   "Caronaprodp": {
     "level": 756,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Itachi",
     "rank": "Caronaprodp"
   },
