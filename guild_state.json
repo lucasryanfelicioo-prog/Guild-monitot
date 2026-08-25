@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 941,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Itachi",
     "rank": "Will"
   },
@@ -79,7 +79,7 @@
   },
   "Bratva": {
     "level": 901,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Deidara",
     "rank": "Bratva"
   },
