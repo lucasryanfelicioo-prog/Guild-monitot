@@ -28,22 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Will",
-        "side": "them",
+        "victim": "Apollo Emici",
+        "side": "us",
         "killers": [
-          "Legacy",
-          "Allmaight"
+          "Kisu"
         ],
-        "detected_at": "2026-08-25T04:11:31.556694+00:00"
-      },
-      {
-        "victim": "Saikopasu",
-        "side": "them",
-        "killers": [
-          "Allmaight",
-          "Legacy"
-        ],
-        "detected_at": "2026-08-25T04:17:09.332238+00:00"
+        "detected_at": "2026-08-25T05:23:01.483321+00:00"
       }
     ]
   }
