@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Kisu",
+        "victim": "Will",
         "side": "them",
         "killers": [
-          "Legacy"
+          "Jowe"
         ],
-        "detected_at": "2026-08-26T09:53:08.511746+00:00"
+        "detected_at": "2026-08-26T13:15:09.261811+00:00"
       }
     ]
   }
