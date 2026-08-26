@@ -1,10 +1,4 @@
 {
-  "Will": {
-    "level": 946,
-    "status": "Online",
-    "vocation": "Ashura",
-    "rank": "Will"
-  },
   "Pk Oshh": {
     "level": 902,
     "status": "Online",
@@ -16,6 +10,18 @@
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Contra Tudo E Todos"
+  },
+  "Saikopasu": {
+    "level": 930,
+    "status": "Online",
+    "vocation": "Tobirama",
+    "rank": "Saikopasu"
+  },
+  "Will": {
+    "level": 946,
+    "status": "Online",
+    "vocation": "Ashura",
+    "rank": "Will"
   },
   "Kisu": {
     "level": 696,
@@ -46,12 +52,6 @@
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Darkness Arsenis"
-  },
-  "Saikopasu": {
-    "level": 930,
-    "status": "Online",
-    "vocation": "Tobirama",
-    "rank": "Saikopasu"
   },
   "Veyk": {
     "level": 924,
