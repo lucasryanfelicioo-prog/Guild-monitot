@@ -28,20 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Pk Oshh",
-        "side": "them",
+        "victim": "Pdiddy",
+        "side": "us",
         "killers": [
-          "Jowe"
+          "Kisu"
         ],
-        "detected_at": "2026-08-26T04:51:16.904984+00:00"
-      },
-      {
-        "victim": "Scooby",
-        "side": "them",
-        "killers": [
-          "Jowe"
-        ],
-        "detected_at": "2026-08-26T04:51:16.904984+00:00"
+        "detected_at": "2026-08-26T06:17:14.382093+00:00"
       }
     ]
   }
