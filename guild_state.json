@@ -1,6 +1,12 @@
 {
+  "Will": {
+    "level": 946,
+    "status": "Online",
+    "vocation": "Ashura",
+    "rank": "Will"
+  },
   "Pk Oshh": {
-    "level": 902,
+    "level": 903,
     "status": "Online",
     "vocation": "Itachi",
     "rank": "Pk Oshh"
@@ -16,12 +22,6 @@
     "status": "Online",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
-  },
-  "Will": {
-    "level": 946,
-    "status": "Online",
-    "vocation": "Ashura",
-    "rank": "Will"
   },
   "Kisu": {
     "level": 696,
