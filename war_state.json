@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Heisein Berg",
+        "victim": "Legacy",
         "side": "us",
         "killers": [
-          "Contra Tudo E Todos"
+          "Kisu"
         ],
-        "detected_at": "2026-08-27T04:29:09.540884+00:00"
+        "detected_at": "2026-08-27T05:05:05.122807+00:00"
       }
     ]
   }
