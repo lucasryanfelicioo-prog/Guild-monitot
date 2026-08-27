@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 992,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Ashura",
     "rank": "Will"
   },
@@ -31,25 +31,25 @@
   },
   "Green": {
     "level": 802,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Madara",
     "rank": "Green"
   },
   "Scooby": {
     "level": 876,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Kisame",
     "rank": "Scooby"
   },
   "Darkness Arsenis": {
     "level": 815,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Itachi",
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
     "level": 937,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Tobirama",
     "rank": "Saikopasu"
   },
