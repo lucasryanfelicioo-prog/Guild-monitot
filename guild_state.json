@@ -1,7 +1,7 @@
 {
   "Will": {
     "level": 992,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Ashura",
     "rank": "Will"
   },
@@ -37,7 +37,7 @@
   },
   "Scooby": {
     "level": 876,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Kisame",
     "rank": "Scooby"
   },
