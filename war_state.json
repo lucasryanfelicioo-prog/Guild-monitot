@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Heisein Berg",
-        "side": "us",
+        "victim": "Scooby",
+        "side": "them",
         "killers": [
-          "Saikopasu"
+          "Mohamed Sz"
         ],
-        "detected_at": "2026-08-28T00:53:02.085580+00:00"
+        "detected_at": "2026-08-28T03:59:01.455230+00:00"
       }
     ]
   }
