@@ -28,20 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Kisu",
+        "victim": "Scooby",
         "side": "them",
         "killers": [
-          "Pocas Trancas"
+          "Heisein Berg"
         ],
-        "detected_at": "2026-08-27T05:17:07.847354+00:00"
-      },
-      {
-        "victim": "Pocas Trancas",
-        "side": "us",
-        "killers": [
-          "Kisu"
-        ],
-        "detected_at": "2026-08-27T05:21:26.789474+00:00"
+        "detected_at": "2026-08-28T00:37:02.133930+00:00"
       }
     ]
   }
