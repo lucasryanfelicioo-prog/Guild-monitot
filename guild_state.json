@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 1040,
+    "level": 1041,
     "status": "Online",
     "vocation": "Ashura",
     "rank": "Will"
@@ -31,7 +31,7 @@
   },
   "Green": {
     "level": 802,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Madara",
     "rank": "Green"
   },
