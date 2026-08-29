@@ -28,12 +28,13 @@
   "pending": {
     "events": [
       {
-        "victim": "Heisein Berg",
+        "victim": "Apollo Emici",
         "side": "us",
         "killers": [
-          "Pk Oshh"
+          "Will",
+          "Saikopasu"
         ],
-        "detected_at": "2026-08-28T15:17:13.652465+00:00"
+        "detected_at": "2026-08-29T18:23:05.101499+00:00"
       }
     ]
   }
