@@ -1,6 +1,6 @@
 {
   "Will": {
-    "level": 1100,
+    "level": 1101,
     "status": "Online",
     "vocation": "Ashura",
     "rank": "Will"
@@ -43,7 +43,7 @@
   },
   "Darkness Arsenis": {
     "level": 828,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Itachi",
     "rank": "Darkness Arsenis"
   },
