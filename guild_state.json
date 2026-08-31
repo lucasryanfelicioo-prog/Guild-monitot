@@ -7,7 +7,7 @@
   },
   "Pk Oshh": {
     "level": 939,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Obito",
     "rank": "Pk Oshh"
   },
@@ -31,12 +31,12 @@
   },
   "Green": {
     "level": 801,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Madara",
     "rank": "Green"
   },
   "Scooby": {
-    "level": 885,
+    "level": 886,
     "status": "Online",
     "vocation": "Kisame",
     "rank": "Scooby"
@@ -73,7 +73,7 @@
   },
   "Caixao De Areia": {
     "level": 697,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Zetsu",
     "rank": "Caixao De Areia"
   },
