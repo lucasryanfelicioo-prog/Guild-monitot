@@ -28,13 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Apollo Emici",
+        "victim": "Mohamed Sz",
         "side": "us",
         "killers": [
-          "Will",
-          "Saikopasu"
+          "Scooby"
         ],
-        "detected_at": "2026-08-29T18:23:05.101499+00:00"
+        "detected_at": "2026-08-31T00:57:15.299191+00:00"
       }
     ]
   }
