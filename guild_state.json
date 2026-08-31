@@ -36,7 +36,7 @@
     "rank": "Green"
   },
   "Scooby": {
-    "level": 884,
+    "level": 882,
     "status": "Online",
     "vocation": "Kisame",
     "rank": "Scooby"
@@ -79,7 +79,7 @@
   },
   "Bratva": {
     "level": 901,
-    "status": "Offline",
+    "status": "Online",
     "vocation": "Deidara",
     "rank": "Bratva"
   },
