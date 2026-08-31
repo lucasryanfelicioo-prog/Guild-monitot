@@ -34,6 +34,14 @@
           "Apollo Emici"
         ],
         "detected_at": "2026-08-31T02:17:06.293807+00:00"
+      },
+      {
+        "victim": "Scooby",
+        "side": "them",
+        "killers": [
+          "Apollo Emici"
+        ],
+        "detected_at": "2026-08-31T02:21:24.174873+00:00"
       }
     ]
   }
