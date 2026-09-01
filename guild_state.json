@@ -36,7 +36,7 @@
     "rank": "Green"
   },
   "Scooby": {
-    "level": 900,
+    "level": 901,
     "status": "Online",
     "vocation": "Kisame",
     "rank": "Scooby"
@@ -60,7 +60,7 @@
     "rank": "Veyk"
   },
   "Hitogoroshi": {
-    "level": 916,
+    "level": 917,
     "status": "Online",
     "vocation": "Madara",
     "rank": "Hitogoroshi"
@@ -84,7 +84,7 @@
     "rank": "Bratva"
   },
   "Biit": {
-    "level": 899,
+    "level": 900,
     "status": "Online",
     "vocation": "Indra",
     "rank": "Biit"
