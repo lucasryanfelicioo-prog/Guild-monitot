@@ -36,7 +36,7 @@
     "rank": "Green"
   },
   "Scooby": {
-    "level": 888,
+    "level": 889,
     "status": "Online",
     "vocation": "Kisame",
     "rank": "Scooby"
@@ -85,7 +85,7 @@
   },
   "Biit": {
     "level": 874,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Biit"
   },
