@@ -1,19 +1,19 @@
 {
   "Will": {
     "level": 1160,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Ashura",
     "rank": "Will"
   },
   "Pk Oshh": {
     "level": 949,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Obito",
     "rank": "Pk Oshh"
   },
   "Contra Tudo E Todos": {
     "level": 1103,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Tobirama",
     "rank": "Contra Tudo E Todos"
   },
@@ -37,31 +37,31 @@
   },
   "Scooby": {
     "level": 898,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Kisame",
     "rank": "Scooby"
   },
   "Darkness Arsenis": {
     "level": 828,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Itachi",
     "rank": "Darkness Arsenis"
   },
   "Saikopasu": {
     "level": 1041,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Ashura",
     "rank": "Saikopasu"
   },
   "Veyk": {
     "level": 977,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Veyk"
   },
   "Hitogoroshi": {
     "level": 915,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Madara",
     "rank": "Hitogoroshi"
   },
@@ -85,7 +85,7 @@
   },
   "Biit": {
     "level": 898,
-    "status": "Online",
+    "status": "Offline",
     "vocation": "Indra",
     "rank": "Biit"
   },
