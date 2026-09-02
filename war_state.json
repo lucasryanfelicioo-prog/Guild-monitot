@@ -16,7 +16,7 @@
     "active": true,
     "score": {
       "us": 8,
-      "them": 0
+      "them": 17
     },
     "stats": {
       "kills": {
@@ -26,17 +26,34 @@
         "Kill Men": 1,
         "Prideoflondon": 1,
         "Kyuuh": 1,
-        "Atlas": 1
+        "Atlas": 1,
+        "Suki": 17,
+        "Pk Oshh": 4,
+        "Will": 4,
+        "Saikopasu": 1
       },
       "deaths": {
         "Pk Oshh": 1,
         "Veyk": 4,
         "Hitogoroshi": 1,
         "Wonderweiss": 1,
-        "Cachoro Do Mal": 1
+        "Cachoro Do Mal": 1,
+        "Washed": 1,
+        "Pdiddy": 1,
+        "Pocas Trancas": 2,
+        "Heisein Berg": 1,
+        "Gault": 2,
+        "Solado": 1,
+        "Shanks": 1,
+        "Play Rica": 1,
+        "Brabinho": 2,
+        "Paulo War": 1,
+        "Mohamed Sz": 1,
+        "Legacy": 1,
+        "Tawazu": 2
       }
     },
-    "last_kill_detected_at": "2026-09-02T14:41:37.318562+00:00",
+    "last_kill_detected_at": "2026-09-02T14:43:13.408507+00:00",
     "message_id": null
   },
   "pending": {
