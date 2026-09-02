@@ -28,12 +28,12 @@
   "pending": {
     "events": [
       {
-        "victim": "Scooby",
-        "side": "them",
+        "victim": "Kill Men",
+        "side": "us",
         "killers": [
-          "Apollo Emici"
+          "Saikopasu"
         ],
-        "detected_at": "2026-09-01T00:55:16.057624+00:00"
+        "detected_at": "2026-09-02T02:21:42.116059+00:00"
       }
     ]
   }
