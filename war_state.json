@@ -28,12 +28,20 @@
   "pending": {
     "events": [
       {
-        "victim": "Kill Men",
-        "side": "us",
+        "victim": "Scooby",
+        "side": "them",
         "killers": [
-          "Saikopasu"
+          "Heisein Berg"
         ],
-        "detected_at": "2026-09-02T02:21:42.116059+00:00"
+        "detected_at": "2026-09-02T03:11:19.330725+00:00"
+      },
+      {
+        "victim": "Veyk",
+        "side": "them",
+        "killers": [
+          "Heisein Berg"
+        ],
+        "detected_at": "2026-09-02T03:11:19.330725+00:00"
       }
     ]
   }
